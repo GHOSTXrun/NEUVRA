@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1100" width="1600" height="1100"><defs>
+  <radialGradient id="vig" cx="50%" cy="48%" r="75%"><stop offset="0" stop-color="#0C1714"/><stop offset="1" stop-color="#070A0B"/></radialGradient>
+  <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="7" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <filter id="glow2" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="16" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <filter id="soft" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="28"/></filter>
+  <radialGradient id="cellfill" cx="40%" cy="38%" r="70%"><stop offset="0" stop-color="#123A31"/><stop offset="1" stop-color="#08130F"/></radialGradient>
+  <marker id="arrow" viewBox="0 0 12 12" refX="9" refY="6" markerWidth="11" markerHeight="11" orient="auto-start-reverse">
+    <path d="M1,1 L10,6 L1,11" fill="none" stroke="#7FD9BD" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></marker>
+</defs>
+<style>
+  .h { font: 600 54px 'Avenir Next','Helvetica Neue',Helvetica,Arial,sans-serif; letter-spacing: .1em; fill: #EAFBF4; }
+  .s { font: 400 52px 'New York','Iowan Old Style',Georgia,serif; fill: #9CC7B8; }
+  .tag { font: 600 30px 'Avenir Next','Helvetica Neue',Helvetica,Arial,sans-serif; letter-spacing: .22em; fill: #FFB24A; }
+  .big { font: 400 104px 'New York','Iowan Old Style',Georgia,serif; fill: #EAFBF4; }
+</style>
+<rect width="1600" height="1100" fill="url(#vig)"/><g opacity="0.2">
+<path d="M910.0,819.8 L932.0,1004.6 L987.0,1004.6 L1009.0,819.8" fill="#0A1814" stroke="#5BE8BC" stroke-opacity=".45" stroke-width="1.6"/>
+<ellipse cx="1119.0" cy="866.0" rx="165.0" ry="97.0" transform="rotate(-11 1119.0 866.0)" fill="#0A1814" stroke="#5BE8BC" stroke-opacity=".55" stroke-width="1.8"/>
+<path d="M272.0,619.6 L271.8,609.6 L272.2,598.8 L273.2,587.5 L274.7,575.8 L276.8,563.8 L279.4,551.6 L282.4,539.4 L285.9,527.3 L289.8,515.5 L294.0,504.1 L298.6,492.9 L303.7,481.6 L309.2,470.2 L315.1,458.9 L321.5,447.8 L328.3,436.8 L335.6,426.1 L343.3,415.8 L351.4,405.8 L360.0,396.3 L369.1,387.2 L378.7,378.4 L388.7,370.0 L399.2,361.8 L410.2,353.9 L421.5,346.4 L433.2,339.2 L445.2,332.2 L457.5,325.6 L470.0,319.3 L482.9,313.3 L496.3,307.7 L510.1,302.3 L524.3,297.3 L538.8,292.6 L553.4,288.2 L568.3,284.0 L583.2,280.1 L598.1,276.5 L613.0,273.1 L628.0,269.9 L643.1,267.0 L658.4,264.4 L673.8,262.0 L689.3,259.9 L704.9,258.0 L720.5,256.5 L736.0,255.3 L751.6,254.4 L767.0,253.8 L782.4,253.6 L798.0,253.8 L813.5,254.2 L829.1,255.0 L844.7,256.0 L860.2,257.4 L875.6,259.0 L890.9,260.9 L906.0,263.0 L921.0,265.4 L935.8,268.1 L950.7,271.0 L965.4,274.2 L980.0,277.8 L994.6,281.5 L1008.9,285.5 L1023.1,289.8 L1037.0,294.3 L1050.6,299.0 L1064.0,303.9 L1077.1,309.0 L1090.1,314.4 L1103.0,320.0 L1115.6,325.8 L1127.9,331.8 L1140.0,338.1 L1151.8,344.6 L1163.3,351.3 L1174.3,358.3 L1185.0,365.5 L1195.3,373.0 L1205.2,380.7 L1214.9,388.7 L1224.2,397.0 L1233.1,405.4 L1241.8,414.1 L1250.1,422.9 L1258.0,431.9 L1265.7,441.0 L1273.0,450.2 L1280.0,459.7 L1286.7,469.5 L1293.1,479.6 L1299.2,489.9 L1305.0,500.2 L1310.4,510.6 L1315.4,520.9 L1320.0,531.0 L1324.2,540.8 L1328.0,550.3 L1331.4,559.5 L1334.4,568.5 L1337.0,577.3 L1339.2,586.0 L1341.1,594.6 L1342.5,603.0 L1343.6,611.2 L1344.3,619.3 L1344.6,627.2 L1344.5,635.0 L1344.0,642.7 L1343.2,650.2 L1341.9,657.6 L1340.3,664.9 L1338.3,672.1 L1335.9,679.0 L1333.1,685.7 L1330.0,692.2 L1326.4,698.4 L1322.5,704.3 L1318.2,709.9 L1313.5,715.3 L1308.4,720.3 L1302.9,725.2 L1297.1,729.8 L1290.8,734.2 L1284.2,738.5 L1277.2,742.6 L1269.8,746.6 L1262.0,750.5 L1253.8,754.2 L1245.0,757.6 L1235.8,760.9 L1226.2,763.9 L1216.3,766.9 L1206.0,769.7 L1195.5,772.5 L1184.8,775.4 L1174.0,778.3 L1163.0,781.3 L1151.8,784.3 L1140.4,787.2 L1128.7,790.1 L1116.7,792.9 L1104.6,795.7 L1092.2,798.7 L1079.8,801.7 L1067.3,805.0 L1054.6,808.4 L1042.0,812.1 L1029.3,816.2 L1016.5,820.6 L1003.6,825.3 L990.5,830.2 L977.4,835.2 L964.1,840.2 L950.8,845.1 L937.3,849.8 L923.7,854.2 L910.0,858.3 L896.0,862.1 L881.8,865.9 L867.2,869.6 L852.5,873.2 L837.8,876.6 L823.1,879.7 L808.6,882.6 L794.4,885.2 L780.5,887.3 L767.0,889.1 L753.9,890.5 L740.9,891.6 L728.0,892.3 L715.4,892.8 L703.1,892.9 L691.0,892.8 L679.2,892.3 L667.7,891.6 L656.7,890.5 L646.0,889.1 L635.6,887.4 L625.5,885.3 L615.6,882.9 L606.0,880.1 L596.8,877.1 L588.1,873.8 L579.7,870.2 L571.9,866.4 L564.6,862.5 L558.0,858.3 L552.0,853.8 L546.6,848.8 L541.8,843.5 L537.5,837.8 L533.6,832.1 L530.1,826.2 L527.1,820.4 L524.3,814.8 L521.8,809.4 L519.5,804.4 L517.8,799.6 L517.1,794.9 L517.0,790.2 L517.3,785.7 L517.8,781.3 L518.2,777.0 L518.2,773.0 L517.7,769.1 L516.4,765.5 L514.0,762.1 L510.7,758.9 L506.7,756.0 L502.2,753.2 L497.1,750.7 L491.7,748.3 L485.8,746.2 L479.5,744.1 L472.9,742.3 L466.1,740.5 L459.0,739.0 L451.4,737.7 L443.2,736.9 L434.3,736.4 L425.1,736.1 L415.7,735.8 L406.2,735.5 L396.8,735.1 L387.7,734.3 L379.1,733.0 L371.0,731.2 L363.4,729.1 L355.9,726.7 L348.5,724.2 L341.4,721.4 L334.6,718.3 L328.0,714.8 L321.7,711.0 L315.7,706.7 L310.2,701.9 L305.0,696.6 L300.1,690.8 L295.4,684.5 L290.9,677.8 L286.8,670.7 L283.0,663.2 L279.7,655.2 L276.8,646.9 L274.6,638.1 L272.9,629.0 Z" fill="#5BE8BC" opacity=".10" filter="url(#soft)"/>
+<path d="M272.0,619.6 L271.8,609.6 L272.2,598.8 L273.2,587.5 L274.7,575.8 L276.8,563.8 L279.4,551.6 L282.4,539.4 L285.9,527.3 L289.8,515.5 L294.0,504.1 L298.6,492.9 L303.7,481.6 L309.2,470.2 L315.1,458.9 L321.5,447.8 L328.3,436.8 L335.6,426.1 L343.3,415.8 L351.4,405.8 L360.0,396.3 L369.1,387.2 L378.7,378.4 L388.7,370.0 L399.2,361.8 L410.2,353.9 L421.5,346.4 L433.2,339.2 L445.2,332.2 L457.5,325.6 L470.0,319.3 L482.9,313.3 L496.3,307.7 L510.1,302.3 L524.3,297.3 L538.8,292.6 L553.4,288.2 L568.3,284.0 L583.2,280.1 L598.1,276.5 L613.0,273.1 L628.0,269.9 L643.1,267.0 L658.4,264.4 L673.8,262.0 L689.3,259.9 L704.9,258.0 L720.5,256.5 L736.0,255.3 L751.6,254.4 L767.0,253.8 L782.4,253.6 L798.0,253.8 L813.5,254.2 L829.1,255.0 L844.7,256.0 L860.2,257.4 L875.6,259.0 L890.9,260.9 L906.0,263.0 L921.0,265.4 L935.8,268.1 L950.7,271.0 L965.4,274.2 L980.0,277.8 L994.6,281.5 L1008.9,285.5 L1023.1,289.8 L1037.0,294.3 L1050.6,299.0 L1064.0,303.9 L1077.1,309.0 L1090.1,314.4 L1103.0,320.0 L1115.6,325.8 L1127.9,331.8 L1140.0,338.1 L1151.8,344.6 L1163.3,351.3 L1174.3,358.3 L1185.0,365.5 L1195.3,373.0 L1205.2,380.7 L1214.9,388.7 L1224.2,397.0 L1233.1,405.4 L1241.8,414.1 L1250.1,422.9 L1258.0,431.9 L1265.7,441.0 L1273.0,450.2 L1280.0,459.7 L1286.7,469.5 L1293.1,479.6 L1299.2,489.9 L1305.0,500.2 L1310.4,510.6 L1315.4,520.9 L1320.0,531.0 L1324.2,540.8 L1328.0,550.3 L1331.4,559.5 L1334.4,568.5 L1337.0,577.3 L1339.2,586.0 L1341.1,594.6 L1342.5,603.0 L1343.6,611.2 L1344.3,619.3 L1344.6,627.2 L1344.5,635.0 L1344.0,642.7 L1343.2,650.2 L1341.9,657.6 L1340.3,664.9 L1338.3,672.1 L1335.9,679.0 L1333.1,685.7 L1330.0,692.2 L1326.4,698.4 L1322.5,704.3 L1318.2,709.9 L1313.5,715.3 L1308.4,720.3 L1302.9,725.2 L1297.1,729.8 L1290.8,734.2 L1284.2,738.5 L1277.2,742.6 L1269.8,746.6 L1262.0,750.5 L1253.8,754.2 L1245.0,757.6 L1235.8,760.9 L1226.2,763.9 L1216.3,766.9 L1206.0,769.7 L1195.5,772.5 L1184.8,775.4 L1174.0,778.3 L1163.0,781.3 L1151.8,784.3 L1140.4,787.2 L1128.7,790.1 L1116.7,792.9 L1104.6,795.7 L1092.2,798.7 L1079.8,801.7 L1067.3,805.0 L1054.6,808.4 L1042.0,812.1 L1029.3,816.2 L1016.5,820.6 L1003.6,825.3 L990.5,830.2 L977.4,835.2 L964.1,840.2 L950.8,845.1 L937.3,849.8 L923.7,854.2 L910.0,858.3 L896.0,862.1 L881.8,865.9 L867.2,869.6 L852.5,873.2 L837.8,876.6 L823.1,879.7 L808.6,882.6 L794.4,885.2 L780.5,887.3 L767.0,889.1 L753.9,890.5 L740.9,891.6 L728.0,892.3 L715.4,892.8 L703.1,892.9 L691.0,892.8 L679.2,892.3 L667.7,891.6 L656.7,890.5 L646.0,889.1 L635.6,887.4 L625.5,885.3 L615.6,882.9 L606.0,880.1 L596.8,877.1 L588.1,873.8 L579.7,870.2 L571.9,866.4 L564.6,862.5 L558.0,858.3 L552.0,853.8 L546.6,848.8 L541.8,843.5 L537.5,837.8 L533.6,832.1 L530.1,826.2 L527.1,820.4 L524.3,814.8 L521.8,809.4 L519.5,804.4 L517.8,799.6 L517.1,794.9 L517.0,790.2 L517.3,785.7 L517.8,781.3 L518.2,777.0 L518.2,773.0 L517.7,769.1 L516.4,765.5 L514.0,762.1 L510.7,758.9 L506.7,756.0 L502.2,753.2 L497.1,750.7 L491.7,748.3 L485.8,746.2 L479.5,744.1 L472.9,742.3 L466.1,740.5 L459.0,739.0 L451.4,737.7 L443.2,736.9 L434.3,736.4 L425.1,736.1 L415.7,735.8 L406.2,735.5 L396.8,735.1 L387.7,734.3 L379.1,733.0 L371.0,731.2 L363.4,729.1 L355.9,726.7 L348.5,724.2 L341.4,721.4 L334.6,718.3 L328.0,714.8 L321.7,711.0 L315.7,706.7 L310.2,701.9 L305.0,696.6 L300.1,690.8 L295.4,684.5 L290.9,677.8 L286.8,670.7 L283.0,663.2 L279.7,655.2 L276.8,646.9 L274.6,638.1 L272.9,629.0 Z" fill="url(#cellfill)" stroke="#5BE8BC" stroke-width="2.4" filter="url(#glow)"/>
+<path d="M508.5,764.4 L515.6,761.5 L524.9,757.7 L536.0,753.1 L548.4,748.0 L561.6,742.7 L575.3,737.3 L588.9,732.2 L602.0,727.4 L615.0,722.9 L628.3,718.3 L642.0,713.7 L656.0,709.2 L670.0,704.8 L684.1,700.5 L698.1,696.5 L712.0,692.8 L725.9,689.4 L740.0,686.4 L754.2,683.7 L768.4,681.2 L782.4,678.7 L796.0,676.0 L809.3,673.0 L822.0,669.7 L834.3,666.0 L846.4,662.3 L858.3,658.3 L869.8,654.3 L880.8,649.9 L891.2,645.3 L901.0,640.3 L910.0,635.0 L918.4,628.8 L926.2,621.6 L933.6,613.8 L940.3,605.9 L946.3,598.2 L951.5,591.2 L955.9,585.4 L959.5,581.1" fill="none" stroke="#5BE8BC" stroke-opacity=".22" stroke-width="2"/>
+<path d="M833.0,250.0 L830.9,257.1 L828.2,266.6 L824.9,277.9 L821.3,290.4 L817.4,303.7 L813.4,317.1 L809.4,330.2 L805.5,342.4 L801.6,353.9 L797.4,365.5 L793.0,377.0 L788.7,388.6 L784.3,400.1 L780.1,411.7 L776.1,423.2 L772.5,434.8 L769.3,446.2 L766.4,457.5 L763.7,468.8 L761.2,480.0 L758.7,491.4 L756.1,503.0 L753.4,514.9 L750.5,527.2 L747.1,540.7 L743.4,555.6 L739.4,571.2 L735.4,586.9 L731.5,601.8 L728.1,615.3 L725.2,626.6 L723.0,635.0" fill="none" stroke="#5BE8BC" stroke-opacity=".22" stroke-width="2"/>
+<line x1="913.6" y1="698.3" x2="1072.8" y2="798.7" stroke="#7FD9BD" stroke-opacity="0.55" stroke-width="0.10" stroke-linecap="round"/>
+<line x1="913.6" y1="698.3" x2="364.8" y2="560.0" stroke="#7FD9BD" stroke-opacity="0.55" stroke-width="0.10" stroke-linecap="round"/>
+<circle cx="913.6" cy="698.3" r="4.2" fill="#D2FBEC"/>
+<circle cx="1072.8" cy="798.7" r="4.2" fill="#D2FBEC"/>
+<circle cx="364.8" cy="560.0" r="4.2" fill="#D2FBEC"/>
+</g>
+<path d="M832.0,250.0 C978.2,250.0 978.2,349.5 1120.5,349.5" fill="none" stroke="#33E3D2" stroke-opacity=".85" stroke-width="12.0" stroke-linecap="round"/>
+<path d="M1099.7,366.9 L1124.5,349.5 L1099.7,332.1" fill="none" stroke="#33E3D2" stroke-width="6.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M372.0,300.0 C740.4,300.0 740.4,370.2 1104.9,370.2" fill="none" stroke="#33E3D2" stroke-opacity=".85" stroke-width="5.2" stroke-linecap="round"/>
+<path d="M1090.2,382.9 L1108.9,370.2 L1090.2,357.5" fill="none" stroke="#33E3D2" stroke-width="4.0" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M832.0,420.0 C967.2,420.0 967.2,392.9 1098.4,392.9" fill="none" stroke="#FFB24A" stroke-opacity=".85" stroke-width="6.8" stroke-linecap="round"/>
+<line x1="1102.4" y1="411.3" x2="1102.4" y2="374.5" stroke="#FFB24A" stroke-width="6.0" stroke-linecap="round"/>
+<path d="M372.0,540.0 C738.0,540.0 738.0,416.5 1100.0,416.5" fill="none" stroke="#33E3D2" stroke-opacity=".85" stroke-width="8.2" stroke-linecap="round"/>
+<path d="M1082.6,431.2 L1104.0,416.5 L1082.6,401.7" fill="none" stroke="#33E3D2" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M831.6,594.2 C972.6,594.2 972.6,438.0 1109.6,438.0" fill="none" stroke="#FFB24A" stroke-opacity=".85" stroke-width="7.5" stroke-linecap="round"/>
+<line x1="1113.6" y1="457.0" x2="1113.6" y2="419.0" stroke="#FFB24A" stroke-width="6.0" stroke-linecap="round"/>
+<path d="M362.2,758.0 C746.1,758.0 746.1,455.0 1126.0,455.0" fill="none" stroke="#FFB24A" stroke-opacity=".85" stroke-width="7.5" stroke-linecap="round"/>
+<line x1="1130.0" y1="474.0" x2="1130.0" y2="436.0" stroke="#FFB24A" stroke-width="6.0" stroke-linecap="round"/>
+<path d="M831.4,607.3 C971.2,607.3 971.2,751.0 1107.1,751.0" fill="none" stroke="#33E3D2" stroke-opacity=".85" stroke-width="9.0" stroke-linecap="round"/>
+<path d="M1089.0,766.3 L1111.1,751.0 L1089.0,735.7" fill="none" stroke="#33E3D2" stroke-width="5.0" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M1148,456 L1148,713" fill="none" stroke="#FFB24A" stroke-opacity=".85" stroke-width="7.5" stroke-linecap="round"/>
+<line x1="1129.0" y1="713.0" x2="1167.0" y2="713.0" stroke="#FFB24A" stroke-width="6.0" stroke-linecap="round"/>
+<path d="M1192,729 L1192,472" fill="none" stroke="#FFB24A" stroke-opacity=".85" stroke-width="7.5" stroke-linecap="round"/>
+<line x1="1211.0" y1="472.0" x2="1173.0" y2="472.0" stroke="#FFB24A" stroke-width="6.0" stroke-linecap="round"/>
+<path d="M1219.1,365.6 C1320,305 1320,495 1227.3,440.2" fill="none" stroke="#33E3D2" stroke-opacity=".85" stroke-width="6.0" stroke-linecap="round"/>
+<path d="M1250.8,440.5 L1227.3,440.2 L1235.7,462.1" fill="none" stroke="#33E3D2" stroke-width="4.0" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M1159.6,340.9 C1129.581109339984,150 960,150 820.0,196.0" fill="none" stroke="#33E3D2" stroke-opacity=".85" stroke-width="4.5" stroke-linecap="round"/>
+<path d="M814.8,174.9 L820.0,196.0 L837.6,183.2" fill="none" stroke="#33E3D2" stroke-width="4.0" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M372,775 L1098,775" fill="none" stroke="#33E3D2" stroke-opacity=".85" stroke-width="13.5" stroke-linecap="round"/>
+<path d="M1071.8,793.5 L1098.0,775.0 L1071.8,756.5" fill="none" stroke="#33E3D2" stroke-width="7.4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M1112,811 L384,811" fill="none" stroke="#33E3D2" stroke-opacity=".85" stroke-width="5.2" stroke-linecap="round"/>
+<path d="M402.7,798.3 L384.0,811.0 L402.7,823.7" fill="none" stroke="#33E3D2" stroke-width="4.0" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M748.0,878.0 C490,878 490,600 740.0,600.0" fill="none" stroke="#33E3D2" stroke-opacity=".85" stroke-width="6.0" stroke-linecap="round"/>
+<path d="M720.6,613.2 L740.0,600.0 L720.6,586.8" fill="none" stroke="#33E3D2" stroke-width="4.0" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="330" cy="300" r="66" fill="#5BE8BC" opacity=".10" filter="url(#soft)"/>
+<circle cx="330" cy="300" r="42" fill="url(#cellfill)" stroke="#5BE8BC" stroke-width="4" filter="url(#glow)"/>
+<circle cx="330" cy="300" r="12" fill="#D2FBEC"/>
+<text x="330" y="384" text-anchor="middle" class="h" style="font-size:33px;paint-order:stroke;stroke:#0A1411;stroke-width:14px;stroke-linejoin:round">ATTENTION</text>
+<text x="330" y="420" text-anchor="middle" class="s" style="font-size:30px;font-style:italic;paint-order:stroke;stroke:#0A1411;stroke-width:14px;stroke-linejoin:round">thalamus</text>
+<circle cx="330" cy="540" r="66" fill="#5BE8BC" opacity=".10" filter="url(#soft)"/>
+<circle cx="330" cy="540" r="42" fill="url(#cellfill)" stroke="#5BE8BC" stroke-width="4" filter="url(#glow)"/>
+<circle cx="330" cy="540" r="12" fill="#D2FBEC"/>
+<text x="330" y="624" text-anchor="middle" class="h" style="font-size:33px;paint-order:stroke;stroke:#0A1411;stroke-width:14px;stroke-linejoin:round">MEMORY</text>
+<text x="330" y="660" text-anchor="middle" class="s" style="font-size:30px;font-style:italic;paint-order:stroke;stroke:#0A1411;stroke-width:14px;stroke-linejoin:round">hippocampus</text>
+<circle cx="330" cy="785" r="66" fill="#5BE8BC" opacity=".10" filter="url(#soft)"/>
+<circle cx="330" cy="785" r="42" fill="url(#cellfill)" stroke="#5BE8BC" stroke-width="4" filter="url(#glow)"/>
+<circle cx="330" cy="785" r="12" fill="#D2FBEC"/>
+<text x="330" y="869" text-anchor="middle" class="h" style="font-size:33px;paint-order:stroke;stroke:#0A1411;stroke-width:14px;stroke-linejoin:round">THREAT</text>
+<text x="330" y="905" text-anchor="middle" class="s" style="font-size:30px;font-style:italic;paint-order:stroke;stroke:#0A1411;stroke-width:14px;stroke-linejoin:round">amygdala</text>
+<circle cx="790" cy="250" r="66" fill="#5BE8BC" opacity=".10" filter="url(#soft)"/>
+<circle cx="790" cy="250" r="42" fill="url(#cellfill)" stroke="#5BE8BC" stroke-width="4" filter="url(#glow)"/>
+<circle cx="790" cy="250" r="12" fill="#D2FBEC"/>
+<text x="790" y="334" text-anchor="middle" class="h" style="font-size:33px;paint-order:stroke;stroke:#0A1411;stroke-width:14px;stroke-linejoin:round">PLANNING</text>
+<text x="790" y="370" text-anchor="middle" class="s" style="font-size:30px;font-style:italic;paint-order:stroke;stroke:#0A1411;stroke-width:14px;stroke-linejoin:round">prefrontal cortex</text>
+<circle cx="790" cy="420" r="66" fill="#5BE8BC" opacity=".10" filter="url(#soft)"/>
+<circle cx="790" cy="420" r="42" fill="url(#cellfill)" stroke="#5BE8BC" stroke-width="4" filter="url(#glow)"/>
+<circle cx="790" cy="420" r="12" fill="#D2FBEC"/>
+<text x="790" y="504" text-anchor="middle" class="h" style="font-size:33px;paint-order:stroke;stroke:#0A1411;stroke-width:14px;stroke-linejoin:round">EXECUTION COST</text>
+<text x="790" y="540" text-anchor="middle" class="s" style="font-size:30px;font-style:italic;paint-order:stroke;stroke:#0A1411;stroke-width:14px;stroke-linejoin:round">cerebellum</text>
+<circle cx="790" cy="600" r="66" fill="#5BE8BC" opacity=".10" filter="url(#soft)"/>
+<circle cx="790" cy="600" r="42" fill="url(#cellfill)" stroke="#5BE8BC" stroke-width="4" filter="url(#glow)"/>
+<circle cx="790" cy="600" r="12" fill="#D2FBEC"/>
+<text x="790" y="684" text-anchor="middle" class="h" style="font-size:33px;paint-order:stroke;stroke:#0A1411;stroke-width:14px;stroke-linejoin:round">CONFLICT CHECK</text>
+<text x="790" y="720" text-anchor="middle" class="s" style="font-size:30px;font-style:italic;paint-order:stroke;stroke:#0A1411;stroke-width:14px;stroke-linejoin:round">anterior cingulate</text>
+<circle cx="790" cy="878" r="66" fill="#5BE8BC" opacity=".10" filter="url(#soft)"/>
+<circle cx="790" cy="878" r="42" fill="url(#cellfill)" stroke="#5BE8BC" stroke-width="4" filter="url(#glow)"/>
+<circle cx="790" cy="878" r="12" fill="#D2FBEC"/>
+<text x="790" y="962" text-anchor="middle" class="h" style="font-size:33px;paint-order:stroke;stroke:#0A1411;stroke-width:14px;stroke-linejoin:round">LEARNING SIGNAL</text>
+<text x="790" y="998" text-anchor="middle" class="s" style="font-size:30px;font-style:italic;paint-order:stroke;stroke:#0A1411;stroke-width:14px;stroke-linejoin:round">dopamine</text>
+<circle cx="1170" cy="400" r="84" fill="#33E3D2" opacity=".10" filter="url(#soft)"/>
+<circle cx="1170" cy="400" r="60" fill="url(#cellfill)" stroke="#33E3D2" stroke-width="5" filter="url(#glow)"/>
+<circle cx="1170" cy="400" r="18" fill="#D2FBEC"/>
+<text x="1342" y="404" class="h" style="font-size:44px;paint-order:stroke;stroke:#0A1411;stroke-width:14px;stroke-linejoin:round">GO</text>
+<text x="1342" y="444" class="s" style="font-size:31px;font-style:italic;paint-order:stroke;stroke:#0A1411;stroke-width:14px;stroke-linejoin:round">basal ganglia</text>
+<circle cx="1170" cy="785" r="84" fill="#FFB24A" opacity=".10" filter="url(#soft)"/>
+<circle cx="1170" cy="785" r="60" fill="url(#cellfill)" stroke="#FFB24A" stroke-width="5" filter="url(#glow)"/>
+<circle cx="1170" cy="785" r="18" fill="#D2FBEC"/>
+<text x="1342" y="789" class="h" style="font-size:44px;paint-order:stroke;stroke:#0A1411;stroke-width:14px;stroke-linejoin:round">NO-GO</text>
+<text x="1342" y="829" class="s" style="font-size:31px;font-style:italic;paint-order:stroke;stroke:#0A1411;stroke-width:14px;stroke-linejoin:round">basal ganglia</text>
+<text x="90" y="104" class="big" style="font-size:70px">9 nodes. 14 weighted links.</text>
+<line x1="1010" y1="64" x2="1070" y2="64" stroke="#33E3D2" stroke-width="7" stroke-linecap="round"/><path d="M1055.7,77.9 L1076.0,64.0 L1055.7,50.1" fill="none" stroke="#33E3D2" stroke-width="4.0" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1102" y="74" class="h" style="font-size:26px;letter-spacing:.08em;fill:#9CC7B8">PUSHES</text>
+<line x1="1280" y1="64" x2="1340" y2="64" stroke="#FFB24A" stroke-width="7" stroke-linecap="round"/><line x1="1346.0" y1="82.6" x2="1346.0" y2="45.4" stroke="#FFB24A" stroke-width="6.0" stroke-linecap="round"/>
+<text x="1372" y="74" class="h" style="font-size:26px;letter-spacing:.08em;fill:#9CC7B8">HOLDS BACK</text>
+<line x1="1010" y1="116" x2="1070" y2="116" stroke="#7FD9BD" stroke-width="12" stroke-linecap="round"/>
+<line x1="1090" y1="116" x2="1150" y2="116" stroke="#7FD9BD" stroke-width="3" stroke-linecap="round"/>
+<text x="1178" y="126" class="h" style="font-size:26px;letter-spacing:.08em;fill:#9CC7B8">THICKER = STRONGER</text>
+<text x="90" y="1062" class="s" style="font-size:40px;fill:#EAFBF4">Not neurons. <tspan style="font-style:italic;fill:#5BE8BC">Software parts inspired by what brain regions do.</tspan></text></svg>
