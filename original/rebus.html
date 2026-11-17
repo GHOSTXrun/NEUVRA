@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>AlphaMorph // REBUS Experiment 001: a computational perturbation study</title>
+<meta name="description" content="Read-only replay of a computational experiment: what happens when an artificial trading brain's established priors are temporarily relaxed? Recorded data, honest verdicts, downloadable results. Not pharmacology, not consciousness.">
+<meta name="theme-color" content="#07090D">
+<meta name="color-scheme" content="dark">
+<meta name="robots" content="index,follow">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="canonical" href="https://alphamorph.si/rebus">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="ALPHAMORPH">
+<meta property="og:title" content="AlphaMorph // REBUS Experiment 001">
+<meta property="og:description" content="What happens when you temporarily destabilize an artificial brain's established beliefs? A read-only replay of recorded results, including the null ones.">
+<meta property="og:url" content="https://alphamorph.si/rebus">
+<meta property="og:image" content="https://alphamorph.si/og.png">
+<meta property="og:image:alt" content="ALPHAMORPH: a self-evolving trading brain.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="AlphaMorph // REBUS Experiment 001">
+<meta name="twitter:description" content="A computational perturbation experiment on an artificial brain. Recorded data only; verdict shown whatever it is.">
+<meta name="twitter:image" content="https://alphamorph.si/og.png">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="economy.css">
+<link rel="stylesheet" href="rebus.css">
+<noscript><style>.rb-loading{display:none}</style></noscript>
+</head>
+<body class="rb">
+<a class="skip" href="#rb-results">Skip to results</a>
+
+<header class="top" role="banner">
+  <div class="wordmark" aria-label="ALPHAMORPH"><svg class="wm-glyph" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 20 L10 4 L14 12 L21 4" fill="none" stroke="#B6FF4D" stroke-width="2.4" stroke-linejoin="miter"/><path d="M3 20 L10 4" stroke="#9B7BFF" stroke-width="2.4" fill="none"/><circle cx="21" cy="4" r="2.2" fill="#FF5A4E"/></svg><span class="wm-a">ALPHA</span><span class="wm-b">MORPH</span></div>
+  <span class="rb-lab">REBUS LAB</span>
+  <nav class="top-links" aria-label="Site"><a class="econbtn" href="/">← BRAIN</a><a class="econbtn" href="#rb-results">RESULTS</a><a class="econbtn" href="#rb-repro">DATA</a></nav>
+</header>
+
+<main id="rb-main">
+  <section class="rb-head" aria-labelledby="rb-title">
+    <p class="rb-kicker">read-only research replay · no trading controls · no live data</p>
+    <h1 id="rb-title">AlphaMorph // REBUS Experiment 001</h1>
+    <nav id="rb-expnav" class="rb-expnav" aria-label="Choose experiment" hidden></nav>
+    <p class="rb-sub">What happens when you temporarily destabilize an artificial brain's established beliefs?</p>
+    <div id="rb-banners" class="rb-banners" role="status"></div>
+    <!--NOSCRIPT:BEGIN-->
+<noscript><section class="ns"><h2>JavaScript is off: static summary</h2><p>Experiment <code>REBUS-001</code>, status <code>COMPLETED</code>, window role <code>HELD_OUT</code>, data <code>RECORDED</code>.</p><p class="ns-verdict">Headline verdict: <strong>NO_MEANINGFUL_DIFFERENCE</strong></p><ul><li><code>divergence</code>: NO_MEANINGFUL_DIFFERENCE</li><li><code>dynamics_diversity</code>: NO_MEANINGFUL_DIFFERENCE</li><li><code>memory_prior</code>: DIVERGENCE_DETECTED</li><li><code>overall</code>: NO_MEANINGFUL_DIFFERENCE</li><li><code>performance</code>: INSUFFICIENT_EVIDENCE</li><li><code>persistence</code>: NO_PERSISTENCE</li><li><code>plasticity_mechanism</code>: NOT_SUPPORTED</li><li><code>plasticity_persistence</code>: NO_PERSISTENCE</li><li><code>specificity</code>: NOT_DISTINGUISHABLE_FROM_RANDOM</li></ul><h3>Limitations</h3><ul><li>One recorded stream and one candidate circuit (c0); results do not generalise beyond them.</li><li>c0 enters very rarely: internal dynamics and decision divergence are the primary outcomes; performance is descriptive and usually INSUFFICIENT_EVIDENCE.</li><li>Seeds only randomise the RANDOM comparator (5 seeds): the REBUS-vs-RANDOM comparison is coarse. The REBUS condition itself is deterministic.</li><li>Shadow-weights (counterfactual learning) are a research construct that never feeds back into the decision actually taken; their effect is shown only through &#x27;shadow decisions&#x27;.</li><li>Counterfactual outcomes come from fixed-notional paper positions opened at abstentions (selection-biased); they are not trade records.</li><li>Decisions of different conditions are matched on (token, decision obs, apply obs, sensory flag); decisions that exist in one condition only are reported as unmatched, not imputed.</li><li>Tokens are the bootstrap cluster; decisions of one token are not independent. Observations of the same stream are not independent of the market regime.</li><li>Fixed hand-chosen registered maxima and intensity levels; no claim that any level is &#x27;optimal&#x27;.</li></ul><p>The interactive playback, comparison view and charts need JavaScript. Result files: <a href="rebus-data/rebus-001.results.json">results</a>, <a href="rebus-data/rebus-001.ui.json">playback series</a>.</p></section></noscript>
+<!--NOSCRIPT:END-->
+    <p id="rb-loading" class="rb-loading" role="status">Loading recorded experiment…</p>
+    <p id="rb-error" class="rb-error" role="alert" hidden></p>
+  </section>
+
+  <section id="rb-verdict" class="rb-verdict" aria-labelledby="rb-verdict-h" hidden>
+    <h2 id="rb-verdict-h" class="rb-h">Verdict</h2>
+    <div id="rb-verdict-body"></div>
+  </section>
+
+  <section id="rb-lab" class="rb-labsec" aria-labelledby="rb-lab-h" hidden>
+    <h2 id="rb-lab-h" class="rb-h">Playback <span class="rb-hsub">recorded decisions replayed row by row · every value below is read from the result file</span></h2>
+
+    <div class="rb-controls" role="group" aria-label="Playback controls">
+      <button type="button" id="rb-prev" aria-label="Step back one recorded row">◀ step</button>
+      <button type="button" id="rb-play" aria-label="Play" aria-pressed="false">▶ play</button>
+      <button type="button" id="rb-next" aria-label="Step forward one recorded row">step ▶</button>
+      <label class="rb-lbl" for="rb-speed">speed</label>
+      <select id="rb-speed" aria-label="Playback speed"><option value="2">2 rows/s</option><option value="6" selected>6 rows/s</option><option value="20">20 rows/s</option><option value="60">60 rows/s</option></select>
+      <span class="rb-sep" aria-hidden="true"></span>
+      <div class="rb-seg" role="group" aria-label="View mode">
+        <button type="button" id="rb-m-single" aria-pressed="false">SINGLE</button>
+        <button type="button" id="rb-m-compare" aria-pressed="true">NORMAL vs PERTURBED</button>
+      </div>
+      <label class="rb-lbl" for="rb-cond">perturbed arm</label>
+      <select id="rb-cond" aria-label="Choose the perturbed condition (REBUS, ablation, PLACEBO or RANDOM comparator)"></select>
+    </div>
+
+    <div class="rb-scrub">
+      <label class="rb-lbl" for="rb-range">observation</label>
+      <input type="range" id="rb-range" aria-label="Scrub through recorded observations" min="0" max="0" step="1" value="0" aria-valuetext="">
+      <output id="rb-obsout" for="rb-range" class="rb-obsout"></output>
+    </div>
+
+    <div class="rb-timeline">
+      <svg id="rb-tl" viewBox="0 0 900 150" role="img" aria-labelledby="rb-tl-t rb-tl-d" preserveAspectRatio="xMidYMid meet">
+        <title id="rb-tl-t">Phase timeline and perturbation intensity</title>
+        <desc id="rb-tl-d">Experiment phases BASELINE, ONSET, PEAK, RECOVERY, POST over observation id, with the effective perturbation multiplier recorded for the selected arm.</desc>
+      </svg>
+      <p class="rb-cap"><span class="rb-tag" id="rb-tl-tag"></span> intensity = condition level × recorded schedule multiplier; the vertical marker is the current row.</p>
+    </div>
+
+    <div class="rb-grid">
+      <div class="rb-panes" id="rb-panes"></div>
+      <aside class="rb-side" aria-label="Current row details">
+        <div id="rb-readout" class="rb-card" aria-live="off"></div>
+        <div id="rb-params" class="rb-card"></div>
+      </aside>
+    </div>
+    <div id="rb-diff" class="rb-card rb-diff" aria-label="Normal versus perturbed comparison at the current row"></div>
+    <p id="rb-sr" class="vh" aria-live="polite"></p>
+  </section>
+
+  <section id="rb-results" class="rb-res" aria-labelledby="rb-res-h" tabindex="-1" hidden>
+    <h2 id="rb-res-h" class="rb-h">Results <span class="rb-hsub">six questions, answered from the result file only</span></h2>
+    <div id="rb-q"></div>
+  </section>
+
+  <section id="rb-repro" class="rb-repro" aria-labelledby="rb-repro-h" hidden>
+    <h2 id="rb-repro-h" class="rb-h">Method, reproducibility and downloads</h2>
+    <div id="rb-repro-body"></div>
+  </section>
+
+  <footer class="rb-foot">
+    <p>Public view is read-only: no forms, no write endpoints, no authority over the production brain. Experimental output is kept separate from production evidence. Labels: <span class="rb-tag t-rec">RECORDED</span> replayed recorded stream · <span class="rb-tag t-real">REALIZED_SHADOW</span> paper-book result · <span class="rb-tag t-cf">COUNTERFACTUAL_RESEARCH</span> fixed-notional what-if, not a trade · <span class="rb-tag t-syn">SYNTHETIC_FIXTURE</span> fake test data. Not financial advice.</p>
+  </footer>
+</main>
+<script src="rebus.js"></script>
+</body>
+</html>

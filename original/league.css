@@ -1,0 +1,41 @@
+/* ALPHAMORPH — League view. Reuses .economy/.ec-* layout from economy.css. Restrained: no hype, no returns language. */
+.lgbtn{margin-left:2px;border-color:var(--uv);color:var(--uv)}
+.lgbtn:hover,.lg-open .lgbtn{background:var(--uv);color:#000}
+.league{z-index:63}
+.lg-nav{flex:1}
+.lg-nav a[aria-current="page"]{color:var(--lime);border-color:var(--lime)}
+.lg-notice{border:1px solid #E7C46A;background:rgba(231,196,106,.07);padding:9px 13px;margin:0 0 14px;font-size:12px;color:#d8c58f}
+.lg-notice b{letter-spacing:.12em;font-size:11px;color:#E7C46A}
+.lg-notice p{margin:4px 0 0;overflow-wrap:anywhere}
+.lg-notice a{color:var(--lime)}
+.lg-v{display:inline-block;padding:0 7px;border:1px solid var(--line2);letter-spacing:.04em;color:var(--txt)}
+.lg-v.lg-no{border-color:var(--coral);color:var(--coral)}
+.lg-soon{border:1px dashed var(--line2);padding:22px;color:var(--mut);max-width:640px;margin:24px auto}
+.lg-soon h3{margin:0 0 8px;color:var(--txt);letter-spacing:.14em;font-size:13px}
+.lg-soon p{margin:6px 0;overflow-wrap:anywhere}
+.lg-strip{grid-template-columns:repeat(3,minmax(0,1fr));margin-bottom:12px}
+.lg-b{display:inline-block;padding:1px 7px;border:1px solid var(--line2);font-size:10.5px;letter-spacing:.06em;text-transform:uppercase;white-space:nowrap;color:var(--mut)}
+.lg-b.lg-ok{color:var(--lime);border-color:var(--lime)}.lg-b.lg-bad{color:var(--coral);border-color:var(--coral)}.lg-b.lg-wait{color:#E7C46A;border-color:#E7C46A}
+.lg-msg{margin:8px 0;padding:6px 9px;border:1px solid var(--line2);font-size:12px;overflow-wrap:anywhere}
+.lg-msg.lg-bad{border-color:var(--coral);color:var(--coral)}.lg-msg.lg-ok{border-color:var(--lime);color:var(--lime)}.lg-msg.lg-wait{border-color:#E7C46A;color:#E7C46A}
+.lg-btn{min-height:36px;padding:4px 14px;background:none;border:1px solid var(--lime);color:var(--lime);font:inherit;font-size:11px;letter-spacing:.12em;cursor:pointer;margin:4px 6px 4px 0}
+.lg-btn:hover:not(:disabled){background:var(--lime);color:#000}
+.lg-btn:disabled{opacity:.4;cursor:not-allowed}
+.lg-btn.lg-go{background:var(--lime);color:#000}.lg-btn.lg-go:disabled{background:none;color:var(--lime)}
+.lg-btn.lg-ghost{border-color:var(--line2);color:var(--mut)}
+.lg-btn.lg-sm{min-height:30px;padding:2px 9px;font-size:10px;letter-spacing:.05em;text-transform:uppercase}
+.lg-btn.lg-adv{border-color:var(--uv);color:var(--uv)}.lg-btn.lg-adv:hover:not(:disabled){background:var(--uv);color:#000}
+.lg-steps{margin:6px 0 10px;padding-left:20px;font-size:12px;color:var(--mut)}.lg-steps li{margin:3px 0}.lg-steps li.done{color:var(--lime)}
+.lg-fine{font-size:11px;margin:8px 0 0}
+.lg-tx{font-size:12px;margin:8px 0;overflow-wrap:anywhere}
+.lg-lookup{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin:6px 0}
+.lg-lookup input{background:var(--panel2);border:1px solid var(--line2);color:var(--txt);font:inherit;padding:6px 8px;min-height:34px}
+.lg-rep{min-width:260px}
+.lg-kv dd{text-align:left}
+.lg-report{border:1px solid var(--uv);padding:10px 12px;background:var(--panel)}
+.league code{overflow-wrap:anywhere}
+.league .ec-tbl{min-width:520px}
+@media (max-width:860px){.lg-strip{grid-template-columns:1fr}.league .ec-two{grid-template-columns:1fr}.lg-btn{min-height:40px}}
+@media (prefers-reduced-motion:reduce){.league *{transition:none!important;animation:none!important}}
+.league .ec-tbl th{white-space:nowrap}
+.league .ec-tbl td:first-child{min-width:64px;overflow-wrap:normal}

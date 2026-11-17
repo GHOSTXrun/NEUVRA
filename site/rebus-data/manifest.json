@@ -1,0 +1,31 @@
+{
+ "datasets": [
+  {
+   "id": "REBUS-001",
+   "label": "Experiment 001: default circuit c0, intensity table v1",
+   "results": "rebus-data/rebus-001.results.json",
+   "role": "primary",
+   "ui": "rebus-data/rebus-001.ui.json"
+  },
+  {
+   "id": "REBUS-002",
+   "label": "Experiment 002, segment A (held-out window, confirmatory with disclosed reuse)",
+   "results": "rebus-data/rebus-002.results.json",
+   "role": "experiment",
+   "ui": "rebus-data/rebus-002.ui.json"
+  },
+  {
+   "id": "REBUS-002B",
+   "label": "Experiment 002, segment B (replication on the evolution window, not independent of the circuit choice)",
+   "results": "rebus-data/rebus-002.replication.results.json",
+   "role": "experiment",
+   "ui": "rebus-data/rebus-002.replication.ui.json"
+  },
+  {
+   "results": "rebus-data/rebus-fixture.results.json",
+   "role": "fixture",
+   "ui": "rebus-data/rebus-fixture.ui.json"
+  }
+ ],
+ "schema": "rebus-ui-manifest/1"
+}

@@ -1,0 +1,520 @@
+{
+  "source": "https://alphamorph.si/",
+  "captured_at": "2026-11-17T09:17:00.131613+00:00",
+  "endpoints": {
+    "/api/state": "aa0f20dc85653cbb.json",
+    "/healthz": "15a99506b4e1757d.json",
+    "/api/generations": "12674a2d6bb58760.json",
+    "/api/intel/tournament": "cee53ea7908b7369.json",
+    "/api/tokens?limit=40": "6bbd997d120a0f7a.json",
+    "/api/trades?limit=300": "f0374de08b9369d6.json",
+    "/api/economy": "241d470081575851.json",
+    "/api/circuits/benchmark": "63b1acd829b7db4e.json",
+    "/api/circuits/status": "e4d2bea91f7290aa.json",
+    "/api/circuits/lineage": "596d13870b2e2569.json",
+    "/api/circuits/events?since=0&limit=200": "8f965058b3326191.json",
+    "/api/benchmark/history?limit=12": "2f34bda7398ef432.json",
+    "/api/live": "4d241bab7cead48d.json",
+    "/api/benchmark": "2c7280a0926bfaf3.json",
+    "/api/events?since=856887": "68e79a62eecc8a71.json",
+    "/api/strategy/aw-crowd": "0591c8ae6f2d2aa2.json",
+    "/api/strategy/aw-fresh": "20879f7f059edc90.json",
+    "/api/strategy/aw-momentum": "9daced8dc8cde7ba.json",
+    "/api/strategy/ti-g16-8d6324": "f0eee2d5859847d9.json",
+    "/api/strategy/ti-g1-61f2ca": "edae48a2fcece7f5.json",
+    "/api/league": "a7758c413c84e43d.json",
+    "/api/strategy/ti-swing": "3060aa2e49b722cf.json",
+    "/api/strategy/ti-scalp": "7cb113e977043791.json",
+    "/api/strategy/ti-patient": "62b1cbd291ddaa9b.json",
+    "/api/strategy/ti-g43-c33d57": "615e8a56765a6708.json",
+    "/api/strategy/ri-balanced": "e78b8875f9e7b7b3.json",
+    "/api/strategy/fl-active": "c0d45db9baffd2ce.json",
+    "/api/strategy/ri-aggressive": "6bbcc965368e60b9.json",
+    "/api/strategy/ri-cautious": "43f552b8d6603e40.json",
+    "/api/strategy/cu-early": "fe5915bec16b8532.json",
+    "/api/strategy/fl-open": "7c92451575854d94.json",
+    "/api/strategy/fl-crowd": "50a623f66e44c133.json",
+    "/api/strategy/cu-open": "8539eb899431a43b.json",
+    "/api/strategy/pr-clean": "df4e2f27111daf95.json",
+    "/api/strategy/pr-open": "6e4fbda2c014bd19.json",
+    "/api/strategy/cu-shallow": "c272ed052c2e0001.json",
+    "/api/strategy/pr-track": "3a32bb7bcc6c3c51.json",
+    "/api/league/lineage/0xe432fdaebe50c45815ea91e726aa4119f370e01ca0e55ecfca9363b096ad3076": "47eb13fe1ffcd408.json",
+    "/api/league/lineage/0x9e69818c15364fc358b56ac6c81bec59a7f5698949778d80e0cd07b2b24bbcf0": "f6678aa18c825856.json",
+    "/api/league/lineage/0x5878d059fce6c7b613724d5239f01b985eebdf7f41448351c473f39bfd78cddd": "7e5fef0bec7b0ef3.json",
+    "/api/league/lineage/0xa831210f334e40d22fdba2fe2e0bb27ac2953474070c2642cf8aa7039dcbea39": "3e1e9bf6de59e235.json",
+    "/api/league/lineage/0x3554d5bf1c6a8e51e7adceec64caae81ddb891b05bcf3eaad5f4b19a882f297e": "6580ae2d965077bd.json",
+    "/api/league/lineage/0xa0b3527795200fcfbb71707ad2bfe593ca5cf412956022ef34b4e2b392ce1fd5": "289555de05dfef2e.json",
+    "/api/league/lineage/0x10a9f6f2d4f3189856d0f8470600574d06d2b40b9b532ec3423b3e1419ec9230": "cd1318a6c8725486.json",
+    "/api/league/lineage/0x66f0732b7ac692e131094792aceacba0102d7d37255e74831a1d732e52de5dc6": "6cc6be0ba6c2df33.json",
+    "/api/league/lineage/0xd0f08bef75c58afd5d4be285184d123c43206b48946085a79fbd27934ebb097c": "53e22b3c0d2e405f.json",
+    "/api/league/lineage/0x5277e04fb851de041b7e47eee45a59fe39a1801fe6f9bc94e50eddd7f94277ed": "4b1b4c64819fb666.json",
+    "/api/league/lineage/0xf89b1ed0c53934a29bfb820d2417a4b4a2eb0febe20ed73e0bad97ae86f0f7b2": "addeff41fc1f47c2.json",
+    "/api/league/lineage/0x549a17b4880141a5a889c95eb808e44dbe98cdfa953d6d0ee8d4c2e156ecc4f4": "29a3a4a1ec4c0fc8.json",
+    "/api/league/lineage/0x841e9b67935fb55a7efdf23f8f588e66075e04826bc4def604a3425b273f15d2": "23e3736b91f106e9.json",
+    "/api/league/lineage/0xa700b398082b050703da168292c52759e5c07b1e71a3f2483e9b289693ce563a": "aec67bd93fcb3e3c.json",
+    "/api/league/lineage/0xbcfac787b17a864fda8d0db402c9cdbe7426fb93e26a5a21321b261b101e547b": "e93843a8da9b939e.json",
+    "/api/league/lineage/0x090b42403b29390dd6648f3882d269bcb31fc3deeaf2d5a56d13f107ade28ed2": "b6fdd704cd37f035.json",
+    "/api/league/lineage/0x1568cbd46d1bba3fa8e4a85bf98edbb082173d7cfe45a04d5feec535e002b8b8": "159b638b286f941e.json",
+    "/api/league/lineage/0xc0133d6a402e10ce5ad4fb356dab1c71b5140e0900c995f34c48b2e8c34f4363": "ef26d8e163b21fa2.json",
+    "/api/league/lineage/0x52fae25f50621bcfe2c48d30562cde0545d5bfc53e5863d27faf8e31e1a91931": "d0e475c3f937d6af.json",
+    "/api/league/lineage/0x07c859e75956243bf02735c224ea70af8dba9216d4562a5368cdabc9039c6ce4": "1faf2ec572fe679f.json",
+    "/api/league/lineage/0xda63387bcd4125c28c174c7b2a3afc5d81c5bcfbc48ef911b21d73d1f84e02cf": "2be53a7ee29a03b3.json",
+    "/api/league/lineage/0x8a4ba0bf126df0fde22b344be2a4c6e144d8870aefb6607fba4852b7a931e032": "3bd1894cea135057.json",
+    "/api/league/lineage/0x9e9d4b88ba83ad5849494f059f4d1af3c3fca157fefb4cf4ad6f59d72198c873": "4234ff27774a5883.json",
+    "/api/league/lineage/0xfb22e57356ef022a9b8de2d2d8e973af07fdb1be67ad69ede63753328048c458": "e139bd461d172e93.json",
+    "/api/league/lineage/0x4e913fd54eda4c14c2edc7671d0a8b179e1693352779ee4b6e1506d3719cbcb3": "3572fbb5abb02cb8.json",
+    "/api/league/lineage/0x3125a37fdaaabe6038bfea8a913fa53f23ca52fcfc39215fcef44c24f500bd5b": "00ebe2208de5758a.json",
+    "/api/league/lineage/0xb11fa6b120436ce4b9468f7724528611e230d8388140d58dffdce6a9d4efc87d": "07524b7cbfbc6b60.json"
+  },
+  "records": [
+    {
+      "url": "/api/state",
+      "file": "aa0f20dc85653cbb.json",
+      "bytes": 82396,
+      "status": 200,
+      "captured_at": "2026-11-17T09:15:16.655078+00:00"
+    },
+    {
+      "url": "/healthz",
+      "file": "15a99506b4e1757d.json",
+      "bytes": 204,
+      "status": 200,
+      "captured_at": "2026-11-17T09:15:16.655416+00:00"
+    },
+    {
+      "url": "/api/generations",
+      "file": "12674a2d6bb58760.json",
+      "bytes": 1177173,
+      "status": 200,
+      "captured_at": "2026-11-17T09:15:16.655732+00:00"
+    },
+    {
+      "url": "/api/intel/tournament",
+      "file": "cee53ea7908b7369.json",
+      "bytes": 17260,
+      "status": 200,
+      "captured_at": "2026-11-17T09:15:16.678613+00:00"
+    },
+    {
+      "url": "/api/tokens?limit=40",
+      "file": "6bbd997d120a0f7a.json",
+      "bytes": 8395,
+      "status": 200,
+      "captured_at": "2026-11-17T09:15:16.658056+00:00"
+    },
+    {
+      "url": "/api/trades?limit=300",
+      "file": "f0374de08b9369d6.json",
+      "bytes": 129742,
+      "status": 200,
+      "captured_at": "2026-11-17T09:15:16.656743+00:00"
+    },
+    {
+      "url": "/api/economy",
+      "file": "241d470081575851.json",
+      "bytes": 225264,
+      "status": 200,
+      "captured_at": "2026-11-17T09:15:16.658418+00:00"
+    },
+    {
+      "url": "/api/circuits/benchmark",
+      "file": "63b1acd829b7db4e.json",
+      "bytes": 67734,
+      "status": 200,
+      "captured_at": "2026-11-17T09:15:26.338382+00:00"
+    },
+    {
+      "url": "/api/circuits/status",
+      "file": "e4d2bea91f7290aa.json",
+      "bytes": 8686,
+      "status": 200,
+      "captured_at": "2026-11-17T09:15:26.306623+00:00"
+    },
+    {
+      "url": "/api/circuits/lineage",
+      "file": "596d13870b2e2569.json",
+      "bytes": 74753,
+      "status": 200,
+      "captured_at": "2026-11-17T09:15:26.370359+00:00"
+    },
+    {
+      "url": "/api/circuits/events?since=0&limit=200",
+      "file": "8f965058b3326191.json",
+      "bytes": 75883,
+      "status": 200,
+      "captured_at": "2026-11-17T09:15:27.191247+00:00"
+    },
+    {
+      "url": "/api/benchmark/history?limit=12",
+      "file": "2f34bda7398ef432.json",
+      "bytes": 5962,
+      "status": 200,
+      "captured_at": "2026-11-17T09:15:31.742893+00:00"
+    },
+    {
+      "url": "/api/live",
+      "file": "4d241bab7cead48d.json",
+      "bytes": 4268,
+      "status": 200,
+      "captured_at": "2026-11-17T09:15:31.761545+00:00"
+    },
+    {
+      "url": "/api/benchmark",
+      "file": "2c7280a0926bfaf3.json",
+      "bytes": 238046,
+      "status": 200,
+      "captured_at": "2026-11-17T09:15:31.592353+00:00"
+    },
+    {
+      "url": "/api/events?since=856887",
+      "file": "68e79a62eecc8a71.json",
+      "bytes": 171975,
+      "status": 200,
+      "captured_at": "2026-11-17T09:15:38.011034+00:00"
+    },
+    {
+      "url": "/api/strategy/aw-crowd",
+      "file": "0591c8ae6f2d2aa2.json",
+      "bytes": 12555,
+      "status": 200,
+      "captured_at": "2026-11-17T09:15:38.050469+00:00"
+    },
+    {
+      "url": "/api/strategy/aw-fresh",
+      "file": "20879f7f059edc90.json",
+      "bytes": 12418,
+      "status": 200,
+      "captured_at": "2026-11-17T09:15:38.219563+00:00"
+    },
+    {
+      "url": "/api/strategy/aw-momentum",
+      "file": "9daced8dc8cde7ba.json",
+      "bytes": 12631,
+      "status": 200,
+      "captured_at": "2026-11-17T09:15:42.823721+00:00"
+    },
+    {
+      "url": "/api/strategy/ti-g16-8d6324",
+      "file": "f0eee2d5859847d9.json",
+      "bytes": 12817,
+      "status": 200,
+      "captured_at": "2026-11-17T09:15:42.878494+00:00"
+    },
+    {
+      "url": "/api/strategy/ti-g1-61f2ca",
+      "file": "edae48a2fcece7f5.json",
+      "bytes": 12712,
+      "status": 200,
+      "captured_at": "2026-11-17T09:15:42.854913+00:00"
+    },
+    {
+      "url": "/api/league",
+      "file": "a7758c413c84e43d.json",
+      "bytes": 11975,
+      "status": 200,
+      "captured_at": "2026-11-17T09:15:31.759217+00:00"
+    },
+    {
+      "url": "/api/strategy/ti-swing",
+      "file": "3060aa2e49b722cf.json",
+      "bytes": 12410,
+      "status": 200,
+      "captured_at": "2026-11-17T09:15:52.134678+00:00"
+    },
+    {
+      "url": "/api/strategy/ti-scalp",
+      "file": "7cb113e977043791.json",
+      "bytes": 422,
+      "status": 200,
+      "captured_at": "2026-11-17T09:15:49.206703+00:00"
+    },
+    {
+      "url": "/api/strategy/ti-patient",
+      "file": "62b1cbd291ddaa9b.json",
+      "bytes": 432,
+      "status": 200,
+      "captured_at": "2026-11-17T09:15:49.179138+00:00"
+    },
+    {
+      "url": "/api/strategy/ti-g43-c33d57",
+      "file": "615e8a56765a6708.json",
+      "bytes": 12966,
+      "status": 200,
+      "captured_at": "2026-11-17T09:15:49.178818+00:00"
+    },
+    {
+      "url": "/api/strategy/ri-balanced",
+      "file": "e78b8875f9e7b7b3.json",
+      "bytes": 12528,
+      "status": 200,
+      "captured_at": "2026-11-17T09:15:55.016083+00:00"
+    },
+    {
+      "url": "/api/strategy/fl-active",
+      "file": "c0d45db9baffd2ce.json",
+      "bytes": 12706,
+      "status": 200,
+      "captured_at": "2026-11-17T09:15:55.050428+00:00"
+    },
+    {
+      "url": "/api/strategy/ri-aggressive",
+      "file": "6bbcc965368e60b9.json",
+      "bytes": 12611,
+      "status": 200,
+      "captured_at": "2026-11-17T09:15:55.006461+00:00"
+    },
+    {
+      "url": "/api/strategy/ri-cautious",
+      "file": "43f552b8d6603e40.json",
+      "bytes": 12500,
+      "status": 200,
+      "captured_at": "2026-11-17T09:15:55.018052+00:00"
+    },
+    {
+      "url": "/api/strategy/cu-early",
+      "file": "fe5915bec16b8532.json",
+      "bytes": 12576,
+      "status": 200,
+      "captured_at": "2026-11-17T09:16:01.023180+00:00"
+    },
+    {
+      "url": "/api/strategy/fl-open",
+      "file": "7c92451575854d94.json",
+      "bytes": 12396,
+      "status": 200,
+      "captured_at": "2026-11-17T09:16:01.022740+00:00"
+    },
+    {
+      "url": "/api/strategy/fl-crowd",
+      "file": "50a623f66e44c133.json",
+      "bytes": 12663,
+      "status": 200,
+      "captured_at": "2026-11-17T09:16:01.010639+00:00"
+    },
+    {
+      "url": "/api/strategy/cu-open",
+      "file": "8539eb899431a43b.json",
+      "bytes": 12506,
+      "status": 200,
+      "captured_at": "2026-11-17T09:16:01.038467+00:00"
+    },
+    {
+      "url": "/api/strategy/pr-clean",
+      "file": "df4e2f27111daf95.json",
+      "bytes": 12736,
+      "status": 200,
+      "captured_at": "2026-11-17T09:16:05.970531+00:00"
+    },
+    {
+      "url": "/api/strategy/pr-open",
+      "file": "6e4fbda2c014bd19.json",
+      "bytes": 12541,
+      "status": 200,
+      "captured_at": "2026-11-17T09:16:05.990714+00:00"
+    },
+    {
+      "url": "/api/strategy/cu-shallow",
+      "file": "c272ed052c2e0001.json",
+      "bytes": 12693,
+      "status": 200,
+      "captured_at": "2026-11-17T09:16:05.963260+00:00"
+    },
+    {
+      "url": "/api/strategy/pr-track",
+      "file": "3a32bb7bcc6c3c51.json",
+      "bytes": 12649,
+      "status": 200,
+      "captured_at": "2026-11-17T09:16:06.006605+00:00"
+    },
+    {
+      "url": "/api/league/lineage/0xe432fdaebe50c45815ea91e726aa4119f370e01ca0e55ecfca9363b096ad3076",
+      "file": "47eb13fe1ffcd408.json",
+      "bytes": 33039,
+      "status": 200,
+      "captured_at": "2026-11-17T09:16:11.427822+00:00"
+    },
+    {
+      "url": "/api/league/lineage/0x9e69818c15364fc358b56ac6c81bec59a7f5698949778d80e0cd07b2b24bbcf0",
+      "file": "f6678aa18c825856.json",
+      "bytes": 33045,
+      "status": 200,
+      "captured_at": "2026-11-17T09:16:11.429085+00:00"
+    },
+    {
+      "url": "/api/league/lineage/0x5878d059fce6c7b613724d5239f01b985eebdf7f41448351c473f39bfd78cddd",
+      "file": "7e5fef0bec7b0ef3.json",
+      "bytes": 33025,
+      "status": 200,
+      "captured_at": "2026-11-17T09:16:11.428488+00:00"
+    },
+    {
+      "url": "/api/league/lineage/0xa831210f334e40d22fdba2fe2e0bb27ac2953474070c2642cf8aa7039dcbea39",
+      "file": "3e1e9bf6de59e235.json",
+      "bytes": 33018,
+      "status": 200,
+      "captured_at": "2026-11-17T09:16:11.427460+00:00"
+    },
+    {
+      "url": "/api/league/lineage/0x3554d5bf1c6a8e51e7adceec64caae81ddb891b05bcf3eaad5f4b19a882f297e",
+      "file": "6580ae2d965077bd.json",
+      "bytes": 33012,
+      "status": 200,
+      "captured_at": "2026-11-17T09:16:16.449218+00:00"
+    },
+    {
+      "url": "/api/league/lineage/0xa0b3527795200fcfbb71707ad2bfe593ca5cf412956022ef34b4e2b392ce1fd5",
+      "file": "289555de05dfef2e.json",
+      "bytes": 33049,
+      "status": 200,
+      "captured_at": "2026-11-17T09:16:17.670547+00:00"
+    },
+    {
+      "url": "/api/league/lineage/0x10a9f6f2d4f3189856d0f8470600574d06d2b40b9b532ec3423b3e1419ec9230",
+      "file": "cd1318a6c8725486.json",
+      "bytes": 33027,
+      "status": 200,
+      "captured_at": "2026-11-17T09:16:16.449899+00:00"
+    },
+    {
+      "url": "/api/league/lineage/0x66f0732b7ac692e131094792aceacba0102d7d37255e74831a1d732e52de5dc6",
+      "file": "6cc6be0ba6c2df33.json",
+      "bytes": 33045,
+      "status": 200,
+      "captured_at": "2026-11-17T09:16:17.655093+00:00"
+    },
+    {
+      "url": "/api/league/lineage/0xd0f08bef75c58afd5d4be285184d123c43206b48946085a79fbd27934ebb097c",
+      "file": "53e22b3c0d2e405f.json",
+      "bytes": 33329,
+      "status": 200,
+      "captured_at": "2026-11-17T09:16:23.528425+00:00"
+    },
+    {
+      "url": "/api/league/lineage/0x5277e04fb851de041b7e47eee45a59fe39a1801fe6f9bc94e50eddd7f94277ed",
+      "file": "4b1b4c64819fb666.json",
+      "bytes": 33047,
+      "status": 200,
+      "captured_at": "2026-11-17T09:16:22.573855+00:00"
+    },
+    {
+      "url": "/api/league/lineage/0xf89b1ed0c53934a29bfb820d2417a4b4a2eb0febe20ed73e0bad97ae86f0f7b2",
+      "file": "addeff41fc1f47c2.json",
+      "bytes": 33000,
+      "status": 200,
+      "captured_at": "2026-11-17T09:16:22.519487+00:00"
+    },
+    {
+      "url": "/api/league/lineage/0x549a17b4880141a5a889c95eb808e44dbe98cdfa953d6d0ee8d4c2e156ecc4f4",
+      "file": "29a3a4a1ec4c0fc8.json",
+      "bytes": 33092,
+      "status": 200,
+      "captured_at": "2026-11-17T09:16:22.546880+00:00"
+    },
+    {
+      "url": "/api/league/lineage/0x841e9b67935fb55a7efdf23f8f588e66075e04826bc4def604a3425b273f15d2",
+      "file": "23e3736b91f106e9.json",
+      "bytes": 33321,
+      "status": 200,
+      "captured_at": "2026-11-17T09:16:28.530867+00:00"
+    },
+    {
+      "url": "/api/league/lineage/0xa700b398082b050703da168292c52759e5c07b1e71a3f2483e9b289693ce563a",
+      "file": "aec67bd93fcb3e3c.json",
+      "bytes": 33338,
+      "status": 200,
+      "captured_at": "2026-11-17T09:16:27.407056+00:00"
+    },
+    {
+      "url": "/api/league/lineage/0xbcfac787b17a864fda8d0db402c9cdbe7426fb93e26a5a21321b261b101e547b",
+      "file": "e93843a8da9b939e.json",
+      "bytes": 33344,
+      "status": 200,
+      "captured_at": "2026-11-17T09:16:28.231015+00:00"
+    },
+    {
+      "url": "/api/league/lineage/0x090b42403b29390dd6648f3882d269bcb31fc3deeaf2d5a56d13f107ade28ed2",
+      "file": "b6fdd704cd37f035.json",
+      "bytes": 33353,
+      "status": 200,
+      "captured_at": "2026-11-17T09:16:27.366737+00:00"
+    },
+    {
+      "url": "/api/league/lineage/0x1568cbd46d1bba3fa8e4a85bf98edbb082173d7cfe45a04d5feec535e002b8b8",
+      "file": "159b638b286f941e.json",
+      "bytes": 33084,
+      "status": 200,
+      "captured_at": "2026-11-17T09:16:34.667444+00:00"
+    },
+    {
+      "url": "/api/league/lineage/0xc0133d6a402e10ce5ad4fb356dab1c71b5140e0900c995f34c48b2e8c34f4363",
+      "file": "ef26d8e163b21fa2.json",
+      "bytes": 32614,
+      "status": 200,
+      "captured_at": "2026-11-17T09:16:33.649039+00:00"
+    },
+    {
+      "url": "/api/league/lineage/0x52fae25f50621bcfe2c48d30562cde0545d5bfc53e5863d27faf8e31e1a91931",
+      "file": "d0e475c3f937d6af.json",
+      "bytes": 33084,
+      "status": 200,
+      "captured_at": "2026-11-17T09:16:33.647866+00:00"
+    },
+    {
+      "url": "/api/league/lineage/0x07c859e75956243bf02735c224ea70af8dba9216d4562a5368cdabc9039c6ce4",
+      "file": "1faf2ec572fe679f.json",
+      "bytes": 33067,
+      "status": 200,
+      "captured_at": "2026-11-17T09:16:34.698954+00:00"
+    },
+    {
+      "url": "/api/league/lineage/0xda63387bcd4125c28c174c7b2a3afc5d81c5bcfbc48ef911b21d73d1f84e02cf",
+      "file": "2be53a7ee29a03b3.json",
+      "bytes": 33090,
+      "status": 200,
+      "captured_at": "2026-11-17T09:16:44.583279+00:00"
+    },
+    {
+      "url": "/api/league/lineage/0x8a4ba0bf126df0fde22b344be2a4c6e144d8870aefb6607fba4852b7a931e032",
+      "file": "3bd1894cea135057.json",
+      "bytes": 33334,
+      "status": 200,
+      "captured_at": "2026-11-17T09:16:44.611167+00:00"
+    },
+    {
+      "url": "/api/league/lineage/0x9e9d4b88ba83ad5849494f059f4d1af3c3fca157fefb4cf4ad6f59d72198c873",
+      "file": "4234ff27774a5883.json",
+      "bytes": 31924,
+      "status": 200,
+      "captured_at": "2026-11-17T09:16:45.255086+00:00"
+    },
+    {
+      "url": "/api/league/lineage/0xfb22e57356ef022a9b8de2d2d8e973af07fdb1be67ad69ede63753328048c458",
+      "file": "e139bd461d172e93.json",
+      "bytes": 33368,
+      "status": 200,
+      "captured_at": "2026-11-17T09:16:45.490805+00:00"
+    },
+    {
+      "url": "/api/league/lineage/0x4e913fd54eda4c14c2edc7671d0a8b179e1693352779ee4b6e1506d3719cbcb3",
+      "file": "3572fbb5abb02cb8.json",
+      "bytes": 33014,
+      "status": 200,
+      "captured_at": "2026-11-17T09:16:52.215148+00:00"
+    },
+    {
+      "url": "/api/league/lineage/0x3125a37fdaaabe6038bfea8a913fa53f23ca52fcfc39215fcef44c24f500bd5b",
+      "file": "00ebe2208de5758a.json",
+      "bytes": 33016,
+      "status": 200,
+      "captured_at": "2026-11-17T09:16:51.467390+00:00"
+    },
+    {
+      "url": "/api/league/lineage/0xb11fa6b120436ce4b9468f7724528611e230d8388140d58dffdce6a9d4efc87d",
+      "file": "07524b7cbfbc6b60.json",
+      "bytes": 34459,
+      "status": 200,
+      "captured_at": "2026-11-17T09:16:52.255049+00:00"
+    }
+  ]
+}

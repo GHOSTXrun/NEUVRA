@@ -1,0 +1,247 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>ALPHAMORPH — an evolving trading brain, with open books</title>
+<meta name="description" content="ALPHAMORPH is an experimental, self-evolving trading brain. Strategies compete, die and mutate on paper; a tiny amount of real money trades on Robinhood Chain. Real and simulated results are shown separately. Not financial advice.">
+<link rel="alternate" type="application/rss+xml" title="AlphaMorph changelog" href="https://alphamorph.si/changelog.xml">
+<meta name="alphamorph:token-name" content="AlphaMorph">
+<meta name="alphamorph:token-symbol" content="MORPH">
+<meta name="alphamorph:token-chain" content="Robinhood Chain">
+<meta name="alphamorph:token-contract" content="0x6dbe95076584f869dd09a44131e9a3c13f34d7d6">
+<meta name="theme-color" content="#07090D">
+<meta name="color-scheme" content="dark">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<meta property="og:image:alt" content="ALPHAMORPH: a self-evolving trading brain. Strategies and AI models compete, the weak are culled.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="ALPHAMORPH — a self-evolving trading brain you can walk into">
+<meta property="og:site_name" content="ALPHAMORPH">
+<meta property="og:url" content="https://alphamorph.si/">
+<link rel="canonical" href="https://alphamorph.si/">
+<meta property="og:description" content="A brain that grows by evidence: regions unlock by milestones, many AI models compete, the weak are culled. Early experiment, not financial advice.">
+<meta property="og:image" content="https://alphamorph.si/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="ALPHAMORPH — a self-evolving trading brain">
+<meta name="twitter:description" content="An autonomous, self-evolving trading brain: strategies and AI models compete on paper, the weak are culled, tiny real trades behind hard limits. Early experiment.">
+<meta name="twitter:image" content="https://alphamorph.si/og.png">
+<link rel="stylesheet" href="/style.css">
+<link rel="stylesheet" href="/economy.css">
+<link rel="stylesheet" href="/circuits.css">
+<link rel="stylesheet" href="/benchmark.css">
+<link rel="stylesheet" href="/league.css">
+<link rel="modulepreload" href="/vendor/three-0.170.0/three.module.min.js">
+<script type="importmap">{"imports":{"three":"/vendor/three-0.170.0/three.module.min.js"}}</script>
+</head>
+<body data-level="0">
+<a class="skip" href="#strategies">Skip to strategy list</a>
+
+<header class="top" role="banner">
+  <div class="wordmark" aria-label="ALPHAMORPH"><svg class="wm-glyph" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 20 L10 4 L14 12 L21 4" fill="none" stroke="#B6FF4D" stroke-width="2.4" stroke-linejoin="miter"/><path d="M3 20 L10 4" stroke="#9B7BFF" stroke-width="2.4" fill="none"/><circle cx="21" cy="4" r="2.2" fill="#FF5A4E"/></svg><span class="wm-a">ALPHA</span><span class="wm-b">MORPH</span></div>
+  <nav class="navbar" aria-label="Brain navigation">
+    <button type="button" id="nav-back" class="navbtn" data-nav="back" disabled aria-label="Back one level">←<span class="nb-t"> Back</span></button>
+    <div id="crumbs" class="crumbs"></div>
+  </nav>
+  <div class="top-links" role="group" aria-label="Community links">
+    <a id="econ-link" class="econbtn" href="#economy" aria-controls="economy">ECONOMY</a>
+    <a id="circ-link" class="econbtn circbtn" href="#circuits" aria-controls="circuits" title="Neural circuits (shadow mode)">CIRCUITS</a>
+    <a id="bm-link" class="econbtn bmbtn" href="#benchmark" aria-controls="benchmark" title="Benchmark: does evolution actually improve decisions? Recorded evidence only">BENCHMARK</a>
+    <a id="lg-link" class="econbtn lgbtn" href="#league" aria-controls="league" title="Model Lineage League (experimental research access)">LEAGUE</a>
+    <a id="rebus-link" class="econbtn" href="/rebus.html" title="REBUS Lab: a read-only computational experiment on the brain. Recorded results, no controls">REBUS LAB</a>
+    <a id="xlink" class="xbtn" href="#" aria-label="ALPHAMORPH on X" aria-disabled="true" title="X link coming soon" tabindex="-1"><svg viewBox="0 0 24 24" aria-hidden="true" width="14" height="14"><path d="M3 3 L10.4 13.1 L3.4 21 H5.6 L11.4 14.4 L16.2 21 H21 L13.1 10.2 L19.7 3 H17.5 L12.1 9 L7.8 3 Z M6.9 4.5 H8.3 L17.1 19.5 H15.7 Z" fill="currentColor" fill-rule="evenodd"/></svg></a>
+    <span id="capill" class="capill" title="Robinhood Chain · 0x6dbe95076584f869dd09a44131e9a3c13f34d7d6" data-ca="0x6dbe95076584f869dd09a44131e9a3c13f34d7d6" data-chain="Robinhood Chain"><span class="ca-l">CA</span><span id="ca-v" class="ca-v">0x6dbe…d7d6</span><button type="button" id="ca-copy" class="ca-copy" hidden aria-label="Copy contract address"><svg viewBox="0 0 24 24" width="12" height="12" aria-hidden="true"><rect x="8" y="8" width="12" height="12" fill="none" stroke="currentColor" stroke-width="2"/><path d="M4 16V4h12" fill="none" stroke="currentColor" stroke-width="2"/></svg><span id="ca-fb" class="ca-fb" role="status" aria-live="polite"></span></button></span>
+  </div>
+  <div class="top-meta" role="group" aria-label="System status">
+    <button type="button" id="real-chip" class="pill pill-wait real-chip" aria-controls="livelog" title="Real-trading status. Opens the live log.">REAL · …</button>
+    <span id="gstatus" class="pill pill-wait" role="status" aria-live="polite" title="Global data status">CONNECTING</span>
+    <span id="killstate" class="pill pill-wait" role="status" aria-live="polite">—</span>
+    <span class="meta">gen <b id="h-gen">—</b></span>
+    <span class="meta h-live"><i class="dot" id="livedot"></i><span id="firing">IDLE</span></span>
+    <span class="meta wide">blk <b id="block">—</b></span>
+    <span id="stream" class="meta wide" aria-live="polite">stream · connecting</span>
+    <span class="vh">chain <b id="chain">—</b> · <span id="h-pop"></span> · <time id="clock">--:--:-- UTC</time></span>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero" id="stage" aria-label="Explorable strategy brain">
+    <div id="gl" class="gl"></div>
+    <!-- 2D fallback (shown only when WebGL is unavailable) -->
+    <div class="flat" id="flat">
+      <svg id="city" class="city" viewBox="0 0 1440 600" preserveAspectRatio="xMidYMax slice" aria-hidden="true"></svg>
+      <div class="haze" aria-hidden="true"></div>
+      <svg id="brain" class="brain" viewBox="30 30 910 580" role="group" aria-labelledby="brain-title">
+        <title id="brain-title">Strategy brain, 2D fallback: up to six lobes (dormant ones outlined) with strategy nodes and composition nerves</title>
+        <g id="field" aria-hidden="true"></g><g id="shell" aria-hidden="true"></g><g id="lobelabels" aria-hidden="true"></g>
+        <g id="comps"></g><g id="nodes"></g><g id="pulses" aria-hidden="true"></g>
+      </svg>
+    </div>
+    <details class="intro" id="intro" open>
+      <summary>What is ALPHAMORPH?</summary>
+      <p><b>It starts simple and grows by selection.</b> It began as a small 3-region brain; many AI models now compete on paper in a <a href="#economy-tournament">tournament</a>, the weak are culled every generation, and only the best few get real money. As they prove themselves, new brain regions (provenance, flow, curve) unlock one by one, shown as outlined embryos until they are born.</p>
+      <p><b>This is early.</b> Real money is tiny, most stages of the <a href="#economy-evolution">roadmap</a> are not reached yet, and real and simulated results are never mixed.</p>
+      <p><b>Neural circuits (shadow).</b> A <a href="#circuits">circuits view</a> shows eight named circuits and the messages between them, from recorded state only. It makes recommendations, never trades, and says so when it is not enabled.</p>
+      <p class="risk"><b>Risk:</b> you can lose everything you put into anything crypto. This is research, not financial advice. The AlphaMorph token identity and public research sources are linked in the footer. Naming the token is not an endorsement or a promise of value.</p>
+    </details>
+    <div class="grain" aria-hidden="true"></div>
+    <div id="nodelabels" class="nodelabels" aria-hidden="true"></div>
+    <svg id="leaders" class="leaders" aria-hidden="true"></svg>
+    <div id="regiontags" class="regiontags" role="group" aria-label="Brain regions"></div>
+    <div id="tip" class="tip" hidden aria-hidden="true"></div>
+
+    <div class="hud hud-bl" title="Counted in this browser since the page opened">
+      <div class="h-label"><b id="h-rate">0</b> signals · 60 s <span class="muted">· this browser</span></div>
+      <ol class="siglog" id="siglog" aria-label="Most recent events" aria-live="off"></ol>
+    </div>
+
+    <section id="regionpanel" class="regionpanel" hidden aria-labelledby="rp-title"></section>
+
+    <aside class="panel inspector" id="inspect" aria-labelledby="t-inspect" tabindex="-1" hidden>
+      <h2 class="ph" id="t-inspect"><span>inspector</span><span class="ph-r" id="insp-kind">—</span>
+        <button type="button" class="x" id="insp-close" aria-label="Close inspector and go back">×</button></h2>
+      <div id="insp-body" class="pb" aria-live="polite"><p class="empty">Pick a strategy or a nerve.</p></div>
+    </aside>
+
+    <div id="histbanner" class="histbanner" hidden role="status"></div>
+
+    <div class="genbar" role="group" aria-label="Generation history">
+      <label for="genrange" class="h-label">structure at</label>
+      <input type="range" id="genrange" min="0" max="1" step="1" value="1" disabled>
+      <output id="genout" for="genrange">LIVE</output>
+    </div>
+    <details class="legend3d" id="legend">
+      <summary>Legend</summary>
+      <ul>
+        <li><i class="lg lg-node"></i>active strategy · size = √ paper trades</li>
+        <li><i class="lg lg-chal"></i>challenger</li>
+        <li><i class="lg lg-dead"></i>eliminated (ghost)</li>
+        <li><i class="lg lg-comp"></i>composition tract (paper) · brighter = open position · thicker = |paper PnL|</li>
+        <li><i class="lg lg-hue"></i>inside a region: each competing strategy gets its own hue; its tracts share it</li>
+        <li><i class="lg lg-lin"></i>parent → child lineage</li>
+        <li><i class="lg lg-fill"></i>pulse: paper fill</li>
+        <li><i class="lg lg-dec"></i>pulse: decision</li>
+        <li><i class="lg lg-obs"></i>pulse: observation (lime live · pale recorded · grey synthetic)</li>
+      </ul>
+    </details>
+    <p class="hint" id="hint">Drag to orbit · scroll to zoom · hover a region, click to enter · Esc goes back</p>
+
+    <div class="killframe" id="killframe" hidden><span>KILL ENGAGED · no new entries.</span></div>
+    <div class="stage-msg" id="stagemsg" role="status">Loading the specimen.</div>
+    <p class="glnote" id="glnote" hidden role="status"></p>
+    <p class="skip" id="sr-live" aria-live="polite"></p>
+  </section>
+
+  <section class="telemetry" aria-label="Telemetry">
+    <div class="modbar">
+      <span class="mb-id">telemetry</span>
+      <span class="mb-crumb" id="statusline">loading state.</span>
+    </div>
+    <nav class="tabs" id="tabs" aria-label="Telemetry panels">
+      <button type="button" data-tab="strategies" aria-pressed="true">Strategies</button>
+      <button type="button" data-tab="tape" aria-pressed="false">Trades</button>
+      <button type="button" data-tab="tokens" aria-pressed="false">Tokens</button>
+      <button type="button" data-tab="gens" aria-pressed="false">Generations</button>
+      <button type="button" data-tab="equity" aria-pressed="false">Equity</button>
+    </nav>
+    <div class="tgrid">
+      <section class="panel is-active" data-tab="strategies" id="strategies" aria-labelledby="t-strat" tabindex="-1">
+        <h2 class="ph" id="t-strat"><span>populations</span><span class="ph-r">accessible list · same data as the brain</span></h2>
+        <div class="pb scroll" id="strat-body"><p class="empty">Loading.</p></div>
+      </section>
+      <section class="panel" data-tab="tape" id="tape" aria-labelledby="t-tape">
+        <h2 class="ph" id="t-tape"><span>paper tape</span><span class="ph-r">recent fills</span></h2>
+        <div class="pb scroll" id="tape-body"><p class="empty">Loading.</p></div>
+      </section>
+      <section class="panel" data-tab="tokens" id="tokens" aria-labelledby="t-tokens">
+        <h2 class="ph" id="t-tokens"><span>observed tokens</span><span class="ph-r">launchpad feed</span></h2>
+        <div class="pb scroll" id="tokens-body"><p class="empty">Loading.</p></div>
+      </section>
+      <section class="panel" data-tab="gens" id="gens" aria-labelledby="t-gens">
+        <h2 class="ph" id="t-gens"><span>generations</span><span class="ph-r">tournament log</span></h2>
+        <div class="pb scroll" id="gens-body"><p class="empty">Loading.</p></div>
+      </section>
+      <section class="panel" data-tab="equity" id="equity" aria-labelledby="t-equity">
+        <h2 class="ph" id="t-equity"><span>paper equity</span><span class="ph-r"><span class="b b-paper">PAPER</span></span></h2>
+        <div class="pb" id="equity-body"><p class="empty">Loading.</p></div>
+      </section>
+    </div>
+  </section>
+
+  <section class="honesty" aria-labelledby="t-honest">
+    <h2 id="t-honest" class="h-label">read this first</h2>
+    <p><b>Paper first, tiny real trades second.</b> Almost everything you see is simulated against quoted prices. A small hot wallet can also place real trades on Pons (Robinhood Chain), only inside hard limits: about 0.0004 ETH per trade, 3 open positions, daily-loss and drawdown halts, and a kill switch. Real trading is currently <b>halted</b> by the drawdown limit and net negative so far. Real transactions are listed with explorer links in the Live Log.</p>
+    <p><b>Rule strategies and AI models.</b> The core strategies are plain, versioned code with seeded mutation. On top of them, AI models (called through Surplus Intelligence) paper-trade in a tournament, and their calls are logged and costed on the economy view. AI proposals never bypass the deterministic risk gate.</p>
+    <p><b>Every number comes from the local API.</b> The only figures counted in this browser are the signal rate and the equity trace since you opened the page, and they are labelled. Pulses on the brain appear only when an event is delivered; when nothing arrives, the brain only breathes and says IDLE.</p>
+    <dl class="legend-prov">
+      <div><dt><span class="b b-live">LIVE</span></dt><dd>observed on Robinhood Chain (Pons) just now</dd></div>
+      <div><dt><span class="b b-rec">RECORDED</span></dt><dd>genuine network logs, replayed. Not live.</dd></div>
+      <div><dt><span class="b b-paper">PAPER</span></dt><dd>simulated fill. No real order exists.</dd></div>
+      <div><dt><span class="b b-synth">SYNTH TEST</span></dt><dd>generated test data. Not market data.</dd></div>
+      <div><dt><span class="b b-pol">POLICY</span></dt><dd>output of a deterministic strategy</dd></div>
+      <div><dt><span class="b b-hist">HISTORICAL</span></dt><dd>structure of an earlier generation, from the tournament log</dd></div>
+    </dl>
+  </section>
+</main>
+<footer class="foot">
+  <nav class="public-sources" aria-label="Public sources and token identity" style="display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:8px 24px;margin-bottom:12px;font:11px/1.8 var(--mono)">
+    <span style="min-width:0;overflow-wrap:anywhere">$MORPH · Robinhood Chain · <a style="color:var(--real)" href="https://robinhoodchain.blockscout.com/token/0x6dbe95076584f869dd09a44131e9a3c13f34d7d6">0x6dbe95076584f869dd09a44131e9a3c13f34d7d6</a></span>
+    <span style="display:flex;flex-wrap:wrap;gap:16px"><a style="color:var(--real)" href="/thesis">Thesis</a><a style="color:var(--real)" href="/changelog">Changelog</a><a style="color:var(--real)" href="/changelog.xml">RSS</a></span>
+  </nav>
+  <div>ALPHAMORPH · alphamorph.si · experimental research build, not an investment product or advice · strategies are code, not advice · 3D renderer: three.js r170 (MIT), served locally.</div>
+</footer>
+<button type="button" id="ll-toggle" class="ll-toggle" aria-controls="livelog" aria-expanded="false"><i class="dot" aria-hidden="true"></i><span>LIVE LOG</span><b id="ll-count" class="ll-count">0</b></button>
+<aside id="livelog" class="livelog" role="dialog" aria-modal="false" aria-labelledby="ll-title" tabindex="-1" hidden>
+  <h2 class="ph" id="ll-title"><span>live log</span><span class="ph-r" id="ll-meta">behind the scenes · newest first</span>
+    <button type="button" class="x" id="ll-close" aria-label="Close live log">×</button></h2>
+  <section class="realpanel" id="realpanel" aria-label="Real trading"><p class="empty">Loading real-trading state.</p></section>
+  <div class="ll-bar">
+    <div class="ll-chips" id="ll-chips" role="group" aria-label="Filter log rows">
+      <button type="button" data-f="all" aria-pressed="true">All</button>
+      <button type="button" data-f="tokens" aria-pressed="false">Tokens</button>
+      <button type="button" data-f="decisions" aria-pressed="false">Decisions</button>
+      <button type="button" data-f="paper" aria-pressed="false">Paper trades</button>
+      <button type="button" data-f="real" aria-pressed="false">Real trades</button>
+      <button type="button" data-f="evo" aria-pressed="false">Evolution</button>
+    </div>
+    <button type="button" id="ll-pause" class="ll-pause" aria-pressed="false">Auto-scroll: on</button>
+  </div>
+  <ol id="ll-list" class="ll-list" aria-label="Event log, newest first" aria-live="off"></ol>
+</aside>
+<section id="economy" class="economy" role="dialog" aria-modal="false" aria-labelledby="ec-title" tabindex="-1" hidden>
+  <header class="ec-head"><h2 id="ec-title">ECONOMY <span class="muted">· open books</span></h2>
+    <nav class="ec-nav" aria-label="Economy sections"><a href="#economy-evolution">Roadmap</a><a href="#economy-tournament">Tournament</a><a href="#economy-overview">Overview</a><a href="#economy-models">Lineage</a><a href="#economy-decisions">Decisions</a><a href="#economy-perf">Real vs simulated</a><a href="#economy-treasury">Treasury</a><a href="#economy-method">Method</a></nav>
+    <button type="button" class="x" id="ec-close" aria-label="Close economy view and return to the brain">×</button></header>
+  <div class="ec-body" id="ec-body" aria-live="polite"><p class="empty">Loading /api/economy.</p></div>
+</section>
+<section id="circuits" class="economy circuits" role="dialog" aria-modal="false" aria-labelledby="circ-title" tabindex="-1" hidden>
+  <header class="ec-head"><h2 id="circ-title">CIRCUITS <span class="muted">· shadow mode</span></h2>
+    <nav class="ec-nav circ-nav" aria-label="Circuit sections"><a href="#circuits-graph">Graph</a><a href="#circuits-decisions">Decisions</a><a href="#circuits-spread">Disagreement</a><a href="#circuits-memory">Memory</a><a href="#circuits-learning">Learning</a><a href="#circuits-bench">Benchmark</a><a href="#circuits-lineage">Lineage</a></nav>
+    <button type="button" class="x" id="circ-close" aria-label="Close circuits view and return to the brain">×</button></header>
+  <div class="ec-body" id="circ-body"><p class="empty">Loading /api/circuits/status.</p></div>
+  <p class="skip" id="circ-live" role="status" aria-live="polite"></p>
+</section>
+<section id="benchmark" class="economy benchmark" role="dialog" aria-modal="false" aria-labelledby="bm-title" tabindex="-1" hidden>
+  <header class="ec-head"><h2 id="bm-title">BENCHMARK <span class="muted">· does evolution improve decisions?</span></h2>
+    <nav class="ec-nav bm-nav" aria-label="Benchmark sections"><a href="#benchmark-verdict">Verdict</a><a href="#benchmark-windows">Windows</a><a href="#benchmark-classes">Classes</a><a href="#benchmark-compare">Comparisons</a><a href="#benchmark-evolution">Evolution</a><a href="#benchmark-history">History</a><a href="#benchmark-method">Method</a></nav>
+    <button type="button" class="x" id="bm-close" aria-label="Close benchmark view and return to the brain">×</button></header>
+  <div class="ec-body" id="bm-body" aria-live="polite"><p class="empty">Loading /api/benchmark.</p></div>
+</section>
+<section id="league" class="economy league" role="dialog" aria-modal="false" aria-labelledby="lg-title" tabindex="-1" hidden>
+  <header class="ec-head"><h2 id="lg-title">LEAGUE <span class="muted">· model lineages</span></h2>
+    <nav class="ec-nav lg-nav" id="lg-nav" aria-label="League sections" hidden><a href="#league" data-v="list">Lineages</a><a href="#league/mine" data-v="mine">My lineages</a></nav>
+    <button type="button" class="x" id="lg-close" aria-label="Close league view and return to the brain">×</button></header>
+  <div class="ec-body" id="lg-body" aria-live="polite"><p class="empty">Loading.</p></div>
+  <p class="skip" id="lg-live" role="status" aria-live="polite"></p>
+</section>
+<script src="/regions.js" defer></script>
+<script src="/app.js" defer></script>
+<script src="/economy.js" defer></script>
+<script src="/circuits.js" defer></script>
+<script src="/benchmark.js" defer></script>
+<script src="/league.js" defer></script>
+<script src="/livelog.js" defer></script>
+<script type="module" src="/brain3d.js"></script>
+</body>
+</html>

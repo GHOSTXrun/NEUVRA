@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900"><defs>
+  <radialGradient id="vig" cx="50%" cy="48%" r="75%"><stop offset="0" stop-color="#0C1714"/><stop offset="1" stop-color="#070A0B"/></radialGradient>
+  <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="7" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <filter id="glow2" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="16" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <filter id="soft" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="28"/></filter>
+  <radialGradient id="cellfill" cx="40%" cy="38%" r="70%"><stop offset="0" stop-color="#123A31"/><stop offset="1" stop-color="#08130F"/></radialGradient>
+  <marker id="arrow" viewBox="0 0 12 12" refX="9" refY="6" markerWidth="11" markerHeight="11" orient="auto-start-reverse">
+    <path d="M1,1 L10,6 L1,11" fill="none" stroke="#7FD9BD" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></marker>
+</defs>
+<style>
+  .h { font: 600 54px 'Avenir Next','Helvetica Neue',Helvetica,Arial,sans-serif; letter-spacing: .1em; fill: #EAFBF4; }
+  .s { font: 400 52px 'New York','Iowan Old Style',Georgia,serif; fill: #9CC7B8; }
+  .tag { font: 600 30px 'Avenir Next','Helvetica Neue',Helvetica,Arial,sans-serif; letter-spacing: .22em; fill: #FFB24A; }
+  .big { font: 400 104px 'New York','Iowan Old Style',Georgia,serif; fill: #EAFBF4; }
+</style>
+<rect width="1600" height="900" fill="url(#vig)"/><path d="M300.0,185.5 C650.0,185.5 650.0,407.9 1000.0,407.9" fill="none" stroke="#33E3D2" stroke-width="2.2" stroke-opacity="0.55"/>
+<path d="M300.0,199.3 C650.0,199.3 650.0,411.2 1000.0,411.2" fill="none" stroke="#33E3D2" stroke-width="2.2" stroke-opacity="0.55"/>
+<path d="M300.0,213.1 C650.0,213.1 650.0,414.4 1000.0,414.4" fill="none" stroke="#33E3D2" stroke-width="2.2" stroke-opacity="0.55"/>
+<path d="M300.0,226.9 C650.0,226.9 650.0,417.6 1000.0,417.6" fill="none" stroke="#33E3D2" stroke-width="2.2" stroke-opacity="0.55"/>
+<path d="M300.0,240.7 C650.0,240.7 650.0,420.8 1000.0,420.8" fill="none" stroke="#33E3D2" stroke-width="2.2" stroke-opacity="0.55"/>
+<path d="M300.0,254.5 C650.0,254.5 650.0,424.1 1000.0,424.1" fill="none" stroke="#33E3D2" stroke-width="2.2" stroke-opacity="0.55"/>
+<path d="M300.0,220.0 C650.0,220.0 650.0,416.0 1000.0,416.0" fill="none" stroke="#33E3D2" stroke-width="6" stroke-opacity="0.95" filter="url(#glow)"/>
+<path d="M300.0,645.5 C650.0,645.5 650.0,475.9 1000.0,475.9" fill="none" stroke="#FFB24A" stroke-width="2.2" stroke-opacity="0.55"/>
+<path d="M300.0,659.3 C650.0,659.3 650.0,479.2 1000.0,479.2" fill="none" stroke="#FFB24A" stroke-width="2.2" stroke-opacity="0.55"/>
+<path d="M300.0,673.1 C650.0,673.1 650.0,482.4 1000.0,482.4" fill="none" stroke="#FFB24A" stroke-width="2.2" stroke-opacity="0.55"/>
+<path d="M300.0,686.9 C650.0,686.9 650.0,485.6 1000.0,485.6" fill="none" stroke="#FFB24A" stroke-width="2.2" stroke-opacity="0.55"/>
+<path d="M300.0,700.7 C650.0,700.7 650.0,488.8 1000.0,488.8" fill="none" stroke="#FFB24A" stroke-width="2.2" stroke-opacity="0.55"/>
+<path d="M300.0,714.5 C650.0,714.5 650.0,492.1 1000.0,492.1" fill="none" stroke="#FFB24A" stroke-width="2.2" stroke-opacity="0.55"/>
+<path d="M300.0,680.0 C650.0,680.0 650.0,484.0 1000.0,484.0" fill="none" stroke="#FFB24A" stroke-width="6" stroke-opacity="0.95" filter="url(#glow)"/>
+<circle cx="568.9" cy="275.2" r="9" fill="#D2FBEC" filter="url(#glow)"/>
+<circle cx="773.0" cy="378.5" r="9" fill="#D2FBEC" filter="url(#glow)"/>
+<circle cx="568.9" cy="624.8" r="9" fill="#FFE2B0" filter="url(#glow)"/>
+<circle cx="773.0" cy="521.5" r="9" fill="#FFE2B0" filter="url(#glow)"/>
+<path d="M978,398 L1004,416 L978,434" fill="none" stroke="#33E3D2" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)"/>
+<line x1="1002" y1="460" x2="1002" y2="508" stroke="#FFB24A" stroke-width="8" stroke-linecap="round" filter="url(#glow)"/>
+<circle cx="250" cy="220" r="62" fill="url(#cellfill)" stroke="#33E3D2" stroke-width="3" filter="url(#glow)"/>
+<circle cx="228" cy="206" r="6.5" fill="#33E3D2"/>
+<circle cx="266" cy="198" r="6.5" fill="#33E3D2"/>
+<circle cx="244" cy="238" r="6.5" fill="#33E3D2"/>
+<circle cx="274" cy="234" r="6.5" fill="#33E3D2"/>
+<circle cx="222" cy="240" r="6.5" fill="#33E3D2"/>
+<circle cx="250" cy="680" r="62" fill="url(#cellfill)" stroke="#FFB24A" stroke-width="3" filter="url(#glow)"/>
+<circle cx="228" cy="666" r="6.5" fill="#FFB24A"/>
+<circle cx="266" cy="658" r="6.5" fill="#FFB24A"/>
+<circle cx="244" cy="698" r="6.5" fill="#FFB24A"/>
+<circle cx="274" cy="694" r="6.5" fill="#FFB24A"/>
+<circle cx="222" cy="700" r="6.5" fill="#FFB24A"/>
+<circle cx="1130" cy="450" r="150" fill="#33E3D2" opacity=".06" filter="url(#soft)"/>
+<circle cx="1130" cy="450" r="112" fill="url(#cellfill)" stroke="#2B4C44" stroke-width="2"/>
+<path d="M1018,450 A112,112 0 0 1 1242,450" fill="none" stroke="#33E3D2" stroke-width="7" filter="url(#glow)"/>
+<path d="M1242,450 A112,112 0 0 1 1018,450" fill="none" stroke="#FFB24A" stroke-width="7" filter="url(#glow)"/>
+<line x1="1066" y1="450" x2="1194" y2="450" stroke="#D2FBEC" stroke-opacity=".35" stroke-width="2"/>
+<circle cx="1130" cy="450" r="22" fill="#D2FBEC" filter="url(#glow2)"/>
+<line x1="1242" y1="450" x2="1530" y2="450" stroke="#D2FBEC" stroke-width="3" stroke-opacity=".8" marker-end="url(#arrow)"/>
+<text x="250" y="122" text-anchor="middle" class="h" fill="#33E3D2">GO</text>
+<text x="250" y="820" text-anchor="middle" class="h" fill="#FFB24A">NO-GO</text>
+<text x="1130" y="655" text-anchor="middle" class="h">DECISION</text></svg>

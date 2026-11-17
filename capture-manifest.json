@@ -1,0 +1,409 @@
+{
+  "source": "https://alphamorph.si/",
+  "captured_at": "2026-11-17T09:18:41.757559+00:00",
+  "scope": "Public frontend assets, linked pages, REBUS datasets, and a finite snapshot of public read-only APIs. Not a backend or database backup.",
+  "files": [
+    {
+      "file": "app.js",
+      "bytes": 52387,
+      "sha256": "b4fa8320bdfa9a4ccde32eeb307697e4932785d425f58da787f452ce2a13d21c",
+      "source_urls": [
+        "https://alphamorph.si/app.js"
+      ]
+    },
+    {
+      "file": "benchmark.css",
+      "bytes": 4696,
+      "sha256": "e7ff85e42e8a6e5ee9dfbcd11a866248a9d6d2f8e000239b41821b483efa3622",
+      "source_urls": [
+        "https://alphamorph.si/benchmark.css"
+      ]
+    },
+    {
+      "file": "benchmark.js",
+      "bytes": 20212,
+      "sha256": "bab980dd295ffcbc38b2e7582a51ff89edc49b2953b98f8815688910bf3fc7c9",
+      "source_urls": [
+        "https://alphamorph.si/benchmark.js"
+      ]
+    },
+    {
+      "file": "brain3d.js",
+      "bytes": 60411,
+      "sha256": "30c315758c73175950697c34c5fa5072b48e7170062811e76cc56915c245d91d",
+      "source_urls": [
+        "https://alphamorph.si/brain3d.js"
+      ]
+    },
+    {
+      "file": "changelog.css",
+      "bytes": 2881,
+      "sha256": "c1354c756fd58354a4c0b2b1e478f4c08714ba9d38ab97c987c8e50715e6b3a6",
+      "source_urls": [
+        "https://alphamorph.si/changelog.css"
+      ]
+    },
+    {
+      "file": "changelog.html",
+      "bytes": 7910,
+      "sha256": "c3377b723ca3a903d9f01f4e60c53f0bcab2a3449e9079f68da7837bd50fc44b",
+      "source_urls": [
+        "https://alphamorph.si/changelog"
+      ]
+    },
+    {
+      "file": "changelog.xml",
+      "bytes": 4481,
+      "sha256": "faa9676a310acfe74bb337008fea3a5899ef12c907e53e323d3f97b4b53e26a5",
+      "source_urls": [
+        "https://alphamorph.si/changelog.xml"
+      ]
+    },
+    {
+      "file": "circuits.css",
+      "bytes": 5103,
+      "sha256": "a25e1ae5e4c29a1c81d3bbcad206ff258134d75ac5b4099163a16ac818508c0b",
+      "source_urls": [
+        "https://alphamorph.si/circuits.css"
+      ]
+    },
+    {
+      "file": "circuits.js",
+      "bytes": 40156,
+      "sha256": "a6bf0feabb1c23a6f08c4dd63c1ba788262c2599017d4f9775a3d1d130c227dc",
+      "source_urls": [
+        "https://alphamorph.si/circuits.js"
+      ]
+    },
+    {
+      "file": "economy.css",
+      "bytes": 11874,
+      "sha256": "67cd340d4b64d5cab8adc18e6439e99fe11911e4e23e3fa1f3ad6719e6279e7b",
+      "source_urls": [
+        "https://alphamorph.si/economy.css"
+      ]
+    },
+    {
+      "file": "economy.js",
+      "bytes": 33097,
+      "sha256": "e67adf2576fb7883664ad3fd72faa4fd00bf113d1498c044282723ce1cd43106",
+      "source_urls": [
+        "https://alphamorph.si/economy.js"
+      ]
+    },
+    {
+      "file": "favicon.svg",
+      "bytes": 461,
+      "sha256": "83aba8a295800b72868963787132d1d7bb8559f8c0fc8adc2689010a3656183c",
+      "source_urls": [
+        "https://alphamorph.si/favicon.svg"
+      ]
+    },
+    {
+      "file": "healthz",
+      "bytes": 204,
+      "sha256": "c08ea7f70733afda8667ccf0ae0a178a6bb1bfa5ae260bcf85e0494a398aa575",
+      "source_urls": [
+        "https://alphamorph.si/healthz"
+      ]
+    },
+    {
+      "file": "index.html",
+      "bytes": 21465,
+      "sha256": "68b0a50bf4cafb2be134a3c327756e67b01b08a11d11b12899a4479fed3a7e58",
+      "source_urls": [
+        "https://alphamorph.si/",
+        "https://alphamorph.si"
+      ]
+    },
+    {
+      "file": "league.css",
+      "bytes": 3423,
+      "sha256": "03ac8e119b5e1e397d1f849a323cf0d727c0751a047ce609cc8394c08709d197",
+      "source_urls": [
+        "https://alphamorph.si/league.css"
+      ]
+    },
+    {
+      "file": "league.js",
+      "bytes": 50694,
+      "sha256": "4a6c15eb03561914fcef377e384769a5f7de818caa59f7ed9ff7e5363a7112ea",
+      "source_urls": [
+        "https://alphamorph.si/league.js"
+      ]
+    },
+    {
+      "file": "livelog.js",
+      "bytes": 16013,
+      "sha256": "54cb840fc7956743582ae49a2dc74dfbdcc3bfc71f539c2bebd3d70c2199d75b",
+      "source_urls": [
+        "https://alphamorph.si/livelog.js"
+      ]
+    },
+    {
+      "file": "og.png",
+      "bytes": 328964,
+      "sha256": "bbc9985156b392e33f602bbf5ce40755b216b7d519edb6a9b16c36d96618170f",
+      "source_urls": [
+        "https://alphamorph.si/og.png"
+      ]
+    },
+    {
+      "file": "rebus-data/manifest.json",
+      "bytes": 930,
+      "sha256": "914708525107e1e1499b96c39e1724bc5614b202b823598b2d1e81a77fea7b89",
+      "source_urls": [
+        "https://alphamorph.si/rebus-data/manifest.json"
+      ]
+    },
+    {
+      "file": "rebus-data/rebus-001.results.json",
+      "bytes": 328363,
+      "sha256": "c619eb8beeaf0988a17484778ee39f8b5ad0b3b568381f74817964272ed256d0",
+      "source_urls": [
+        "https://alphamorph.si/rebus-data/rebus-001.results.json"
+      ]
+    },
+    {
+      "file": "rebus-data/rebus-001.ui.json",
+      "bytes": 3340512,
+      "sha256": "aa5e957228e3d2f1c15200de6aff4013928b82a31f0c4daceadb9c52d444c782",
+      "source_urls": [
+        "https://alphamorph.si/rebus-data/rebus-001.ui.json"
+      ]
+    },
+    {
+      "file": "rebus-data/rebus-002.replication.results.json",
+      "bytes": 372395,
+      "sha256": "929124ac45bb1efe33d7ef6bc936ca30d11602ddb51ba82112debc4da5297d51",
+      "source_urls": [
+        "https://alphamorph.si/rebus-data/rebus-002.replication.results.json"
+      ]
+    },
+    {
+      "file": "rebus-data/rebus-002.replication.ui.json",
+      "bytes": 4466339,
+      "sha256": "bf41e7af575d9047562889a34ed3adba34b9deedc4cca2e048771cd707574568",
+      "source_urls": [
+        "https://alphamorph.si/rebus-data/rebus-002.replication.ui.json"
+      ]
+    },
+    {
+      "file": "rebus-data/rebus-002.results.json",
+      "bytes": 365999,
+      "sha256": "d0443856626409bdfd14c0e140abcebba09c88b73b8df4a3b16a1ec8701b5edd",
+      "source_urls": [
+        "https://alphamorph.si/rebus-data/rebus-002.results.json"
+      ]
+    },
+    {
+      "file": "rebus-data/rebus-002.ui.json",
+      "bytes": 4428817,
+      "sha256": "2f27f624892e12c0c41ccee3e8b4ffdebcb07a3386e48e15e5b8e4a29f7836d1",
+      "source_urls": [
+        "https://alphamorph.si/rebus-data/rebus-002.ui.json"
+      ]
+    },
+    {
+      "file": "rebus-data/rebus-fixture.results.json",
+      "bytes": 330904,
+      "sha256": "c99504acf3aa9742146917f883379d83cf7c13a876b6ef1dd9280ce62a927788",
+      "source_urls": [
+        "https://alphamorph.si/rebus-data/rebus-fixture.results.json"
+      ]
+    },
+    {
+      "file": "rebus-data/rebus-fixture.ui.json",
+      "bytes": 3078317,
+      "sha256": "7458ad04f5bf2792813c331f8e05bfdaca2d4eb0f20e0a5e2f57e030b8f325ff",
+      "source_urls": [
+        "https://alphamorph.si/rebus-data/rebus-fixture.ui.json"
+      ]
+    },
+    {
+      "file": "rebus.css",
+      "bytes": 12277,
+      "sha256": "a452db870077355bde066bed382ad72608c1baba5fed89ed00aa523651e5debd",
+      "source_urls": [
+        "https://alphamorph.si/rebus.css"
+      ]
+    },
+    {
+      "file": "rebus.html",
+      "bytes": 9705,
+      "sha256": "757447154937f86f613fc0c25e291d6c95119f2d2b5668f4a4d70e021d6e6f14",
+      "source_urls": [
+        "https://alphamorph.si/rebus",
+        "https://alphamorph.si/rebus.html"
+      ]
+    },
+    {
+      "file": "rebus.js",
+      "bytes": 60509,
+      "sha256": "44b30bb4b7ed6cc67771f07d89b86f6bd091e6eddd691c567192f1d0b4e9c811",
+      "source_urls": [
+        "https://alphamorph.si/rebus.js"
+      ]
+    },
+    {
+      "file": "regions.js",
+      "bytes": 4125,
+      "sha256": "cbcb5f7b22be61069761c5ff901146c1c0433cfa9b79e5aebbc310e4fc0f5ab9",
+      "source_urls": [
+        "https://alphamorph.si/regions.js"
+      ]
+    },
+    {
+      "file": "robots.txt",
+      "bytes": 82,
+      "sha256": "9abacebdd27dc587a33066d148d6b7dfa18a708fdc7831b91fb4e95ece68a99f",
+      "source_urls": [
+        "https://alphamorph.si/robots.txt"
+      ]
+    },
+    {
+      "file": "site-config.json",
+      "bytes": 118,
+      "sha256": "1054eecd2d6b7790f823d759f8560ca9854c23f3f98add36c8fe7dabbf441a81",
+      "source_urls": [
+        "https://alphamorph.si/site-config.json"
+      ]
+    },
+    {
+      "file": "sitemap.xml",
+      "bytes": 405,
+      "sha256": "3a9d29b054406d6905165c802c91170862b594f582d29f23ea593077106c6a19",
+      "source_urls": [
+        "https://alphamorph.si/sitemap.xml"
+      ]
+    },
+    {
+      "file": "style.css",
+      "bytes": 35879,
+      "sha256": "de741cec46ecb3bfd52ca0a603a8f40d72acd128b10f9952817c5737d420ca98",
+      "source_urls": [
+        "https://alphamorph.si/style.css"
+      ]
+    },
+    {
+      "file": "thesis-assets/02-one-model-is-not-an-organism.svg",
+      "bytes": 12856,
+      "sha256": "900bdb25f9b9f3d9461b13e2469f524642773fae491ca5c2f578580aa2bb2254",
+      "source_urls": [
+        "https://alphamorph.si/thesis-assets/02-one-model-is-not-an-organism.svg"
+      ]
+    },
+    {
+      "file": "thesis-assets/03-go-vs-no-go.svg",
+      "bytes": 5808,
+      "sha256": "a85d09d1162cee7f9de087bd70207b6421fca3b61ebf5785a63ea488c309b43d",
+      "source_urls": [
+        "https://alphamorph.si/thesis-assets/03-go-vs-no-go.svg"
+      ]
+    },
+    {
+      "file": "thesis-assets/04-learning-vs-evolution.svg",
+      "bytes": 75538,
+      "sha256": "97a6dc355d3bc50797bf8049e07f67210834d5712ac170642506fdaf55d8894c",
+      "source_urls": [
+        "https://alphamorph.si/thesis-assets/04-learning-vs-evolution.svg"
+      ]
+    },
+    {
+      "file": "thesis-assets/05-three-timescales-of-adaptation.svg",
+      "bytes": 59627,
+      "sha256": "24b73d5557c96757ce1b3a634b43c63553a8e07c27163508e6391ab6134d8a7e",
+      "source_urls": [
+        "https://alphamorph.si/thesis-assets/05-three-timescales-of-adaptation.svg"
+      ]
+    },
+    {
+      "file": "thesis-assets/06-the-environment-teaches-the-organism.svg",
+      "bytes": 18250,
+      "sha256": "40c6438eb6a703f61669f0c9a3e528059bd766778b26f3cb2149e3ed66c41612",
+      "source_urls": [
+        "https://alphamorph.si/thesis-assets/06-the-environment-teaches-the-organism.svg"
+      ]
+    },
+    {
+      "file": "thesis-assets/07-economics-of-an-artificial-organism.svg",
+      "bytes": 3367,
+      "sha256": "94dee2912b3af74c52262fff409b888e29aa605b35e9626c7fb0ed29b8595def",
+      "source_urls": [
+        "https://alphamorph.si/thesis-assets/07-economics-of-an-artificial-organism.svg"
+      ]
+    },
+    {
+      "file": "thesis-assets/08-intelligence-must-have-boundaries.svg",
+      "bytes": 58661,
+      "sha256": "89313b0f49d788f6aec5b28f70c02fba33179c67f1ef70dfd7264aa40359e972",
+      "source_urls": [
+        "https://alphamorph.si/thesis-assets/08-intelligence-must-have-boundaries.svg"
+      ]
+    },
+    {
+      "file": "thesis-assets/09-nine-nodes-fourteen-links.svg",
+      "bytes": 20925,
+      "sha256": "64d6e66b7d6060482aebaa0e0b9e4464a84caa60d7d4f8069a1738cbee2944d9",
+      "source_urls": [
+        "https://alphamorph.si/thesis-assets/09-nine-nodes-fourteen-links.svg"
+      ]
+    },
+    {
+      "file": "thesis-assets/cover.webp",
+      "bytes": 56600,
+      "sha256": "216c15ac37eb54a871655c7428bd2fbdfefaf824ac0ca39b302b4d9d6127fc82",
+      "source_urls": [
+        "https://alphamorph.si/thesis-assets/cover.webp"
+      ]
+    },
+    {
+      "file": "thesis-assets/promo.jpg",
+      "bytes": 134426,
+      "sha256": "109bbe43f91f56e288f9cefb0c72ce97fcb2e2eb6e2b1acba468260cfa9796f2",
+      "source_urls": [
+        "https://alphamorph.si/thesis-assets/promo.jpg"
+      ]
+    },
+    {
+      "file": "thesis.css",
+      "bytes": 6335,
+      "sha256": "cdbd8a62bd4f1699b689e9ddfeff21f40805f4cbddca58b0714a967979c460b5",
+      "source_urls": [
+        "https://alphamorph.si/thesis.css"
+      ]
+    },
+    {
+      "file": "thesis.html",
+      "bytes": 35328,
+      "sha256": "0ba47ed394579a4cde49efab3d82c0f57f8e67aae63fc636a2d22a33f9d29f76",
+      "source_urls": [
+        "https://alphamorph.si/thesis"
+      ]
+    },
+    {
+      "file": "vendor/reown-appkit.1.8.24.js",
+      "bytes": 3822848,
+      "sha256": "0f3856e9fe9a0dbae1a00aef1d3f58d1949e36d51bd234bfc14b279465778221",
+      "source_urls": [
+        "https://alphamorph.si/vendor/reown-appkit.1.8.24.js"
+      ]
+    },
+    {
+      "file": "vendor/three-0.170.0/OrbitControls.js",
+      "bytes": 32134,
+      "sha256": "80efaadea4f8a636a65fb0bd08bfef62f3d93a0bb94e2e7500f23176c5c07f4e",
+      "source_urls": [
+        "https://alphamorph.si/vendor/three-0.170.0/OrbitControls.js"
+      ]
+    },
+    {
+      "file": "vendor/three-0.170.0/three.module.min.js",
+      "bytes": 691648,
+      "sha256": "08fd7545d13d2c7fb65ab691530a802dafefd638596501854f267d0fb13c39e7",
+      "source_urls": [
+        "https://alphamorph.si/vendor/three-0.170.0/three.module.min.js"
+      ]
+    }
+  ]
+}
