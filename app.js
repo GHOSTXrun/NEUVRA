@@ -751,7 +751,7 @@ async function loadSiteConfig() {
   else { x.removeAttribute('href'); x.removeAttribute('target'); x.setAttribute('aria-disabled', 'true'); x.tabIndex = -1; x.title = 'X link coming soon'; x.classList.add('off'); }
   const v = $('#ca-v'), b = $('#ca-copy'), pill = $('#capill');
   const configuredCA = typeof cfg.ca === 'string' ? cfg.ca.trim() : '';
-  const ca = ADDR_RE.test(configuredCA) ? configuredCA : pill.dataset.ca;
+  const ca = configuredCA.toUpperCase() === 'TBA' ? '' : (ADDR_RE.test(configuredCA) ? configuredCA : pill.dataset.ca);
   if (ADDR_RE.test(ca)) {
     const chain = typeof cfg.ca_chain === 'string' && /^[\w .-]{1,24}$/.test(cfg.ca_chain) ? cfg.ca_chain : pill.dataset.chain;
     v.textContent = ca.slice(0, 6) + '…' + ca.slice(-4); v.title = ca; pill.title = (chain ? chain + ' · ' : '') + ca;
@@ -765,7 +765,8 @@ async function loadSiteConfig() {
       clearTimeout(b._t); b._t = setTimeout(() => { fb.textContent = ''; b.classList.remove('done'); }, 1600);
     };
   } else {
-    // Both sources invalid: keep the static text, but do not offer a misleading copy action.
+    // No announced contract: show TBA and disable copying.
+    v.textContent = 'TBA'; v.removeAttribute('title'); pill.title = 'Contract address: TBA';
     b.hidden = true; b.onclick = null; pill.classList.remove('has');
   }
 }
