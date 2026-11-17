@@ -3,30 +3,30 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>ALPHAMORPH — an evolving trading brain, with open books</title>
-<meta name="description" content="ALPHAMORPH is an experimental, self-evolving trading brain. Strategies compete, die and mutate on paper; a tiny amount of real money trades on Robinhood Chain. Real and simulated results are shown separately. Not financial advice.">
-<link rel="alternate" type="application/rss+xml" title="AlphaMorph changelog" href="./changelog.xml">
+<title>CORTYN — an evolving trading brain, with open books</title>
+<meta name="description" content="CORTYN is an experimental, self-evolving trading brain. Strategies compete, die and mutate on paper; a tiny amount of real money trades on Robinhood Chain. Real and simulated results are shown separately. Not financial advice.">
+<link rel="alternate" type="application/rss+xml" title="CORTYN changelog" href="./changelog.xml">
 <meta name="alphamorph:token-name" content="AlphaMorph">
 <meta name="alphamorph:token-symbol" content="MORPH">
 <meta name="alphamorph:token-chain" content="Robinhood Chain">
 <meta name="alphamorph:token-contract" content="0x6dbe95076584f869dd09a44131e9a3c13f34d7d6">
 <meta name="theme-color" content="#07090D">
 <meta name="color-scheme" content="dark">
-<link rel="icon" href="./favicon.svg" type="image/svg+xml">
-<meta property="og:image:alt" content="ALPHAMORPH: a self-evolving trading brain. Strategies and AI models compete, the weak are culled.">
+<link rel="icon" href="./cortyn-logo.png" type="image/png">
+
 <meta property="og:type" content="website">
-<meta property="og:title" content="ALPHAMORPH — a self-evolving trading brain you can walk into">
-<meta property="og:site_name" content="ALPHAMORPH">
+<meta property="og:title" content="CORTYN — a self-evolving trading brain you can walk into">
+<meta property="og:site_name" content="CORTYN">
 <meta property="og:url" content="https://alphamorph.si/">
 <link rel="canonical" href="./index.html">
 <meta property="og:description" content="A brain that grows by evidence: regions unlock by milestones, many AI models compete, the weak are culled. Early experiment, not financial advice.">
-<meta property="og:image" content="https://alphamorph.si/og.png">
-<meta property="og:image:width" content="1200">
-<meta property="og:image:height" content="630">
+<meta property="og:image" content="https://ghostxrun.github.io/NEUVRA/cortyn-logo.png">
+
+
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="ALPHAMORPH — a self-evolving trading brain">
+<meta name="twitter:title" content="CORTYN — a self-evolving trading brain">
 <meta name="twitter:description" content="An autonomous, self-evolving trading brain: strategies and AI models compete on paper, the weak are culled, tiny real trades behind hard limits. Early experiment.">
-<meta name="twitter:image" content="https://alphamorph.si/og.png">
+<meta name="twitter:image" content="https://ghostxrun.github.io/NEUVRA/cortyn-logo.png">
 <link rel="stylesheet" href="./style.css">
 <link rel="stylesheet" href="./economy.css">
 <link rel="stylesheet" href="./circuits.css">
@@ -35,12 +35,14 @@
 <link rel="modulepreload" href="./vendor/three-0.170.0/three.module.min.js">
 <script type="importmap">{"imports":{"three":"./vendor/three-0.170.0/three.module.min.js"}}</script>
 <script src="./snapshot-mode.js"></script>
+<link rel="stylesheet" href="./cortyn-brand.css">
+<meta property="og:image:alt" content="CORTYN — neon green and purple brain logo">
 </head>
 <body data-level="0">
 <a class="skip" href="#strategies">Skip to strategy list</a>
 
 <header class="top" role="banner">
-  <div class="wordmark" aria-label="ALPHAMORPH"><svg class="wm-glyph" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 20 L10 4 L14 12 L21 4" fill="none" stroke="#B6FF4D" stroke-width="2.4" stroke-linejoin="miter"/><path d="M3 20 L10 4" stroke="#9B7BFF" stroke-width="2.4" fill="none"/><circle cx="21" cy="4" r="2.2" fill="#FF5A4E"/></svg><span class="wm-a">ALPHA</span><span class="wm-b">MORPH</span></div>
+  <div class="wordmark" aria-label="CORTYN"><span class="cortyn-logo-frame"><img class="cortyn-logo" src="./cortyn-logo.png" alt="" width="44" height="44"></span><span class="cortyn-name">CORTYN</span></div>
   <nav class="navbar" aria-label="Brain navigation">
     <button type="button" id="nav-back" class="navbtn" data-nav="back" disabled aria-label="Back one level">←<span class="nb-t"> Back</span></button>
     <div id="crumbs" class="crumbs"></div>
@@ -51,7 +53,7 @@
     <a id="bm-link" class="econbtn bmbtn" href="#benchmark" aria-controls="benchmark" title="Benchmark: does evolution actually improve decisions? Recorded evidence only">BENCHMARK</a>
     <a id="lg-link" class="econbtn lgbtn" href="#league" aria-controls="league" title="Model Lineage League (experimental research access)">LEAGUE</a>
     <a id="rebus-link" class="econbtn" href="./rebus.html" title="REBUS Lab: a read-only computational experiment on the brain. Recorded results, no controls">REBUS LAB</a>
-    <a id="xlink" class="xbtn" href="#" aria-label="ALPHAMORPH on X" aria-disabled="true" title="X link coming soon" tabindex="-1"><svg viewBox="0 0 24 24" aria-hidden="true" width="14" height="14"><path d="M3 3 L10.4 13.1 L3.4 21 H5.6 L11.4 14.4 L16.2 21 H21 L13.1 10.2 L19.7 3 H17.5 L12.1 9 L7.8 3 Z M6.9 4.5 H8.3 L17.1 19.5 H15.7 Z" fill="currentColor" fill-rule="evenodd"/></svg></a>
+    <a id="xlink" class="xbtn" href="#" aria-label="CORTYN on X" aria-disabled="true" title="X link coming soon" tabindex="-1"><svg viewBox="0 0 24 24" aria-hidden="true" width="14" height="14"><path d="M3 3 L10.4 13.1 L3.4 21 H5.6 L11.4 14.4 L16.2 21 H21 L13.1 10.2 L19.7 3 H17.5 L12.1 9 L7.8 3 Z M6.9 4.5 H8.3 L17.1 19.5 H15.7 Z" fill="currentColor" fill-rule="evenodd"/></svg></a>
     <span id="capill" class="capill" title="Robinhood Chain · 0x6dbe95076584f869dd09a44131e9a3c13f34d7d6" data-ca="0x6dbe95076584f869dd09a44131e9a3c13f34d7d6" data-chain="Robinhood Chain"><span class="ca-l">CA</span><span id="ca-v" class="ca-v">0x6dbe…d7d6</span><button type="button" id="ca-copy" class="ca-copy" hidden aria-label="Copy contract address"><svg viewBox="0 0 24 24" width="12" height="12" aria-hidden="true"><rect x="8" y="8" width="12" height="12" fill="none" stroke="currentColor" stroke-width="2"/><path d="M4 16V4h12" fill="none" stroke="currentColor" stroke-width="2"/></svg><span id="ca-fb" class="ca-fb" role="status" aria-live="polite"></span></button></span>
   </div>
   <div class="top-meta" role="group" aria-label="System status">
@@ -80,11 +82,11 @@
       </svg>
     </div>
     <details class="intro" id="intro" open>
-      <summary>What is ALPHAMORPH?</summary>
+      <summary>What is CORTYN?</summary>
       <p><b>It starts simple and grows by selection.</b> It began as a small 3-region brain; many AI models now compete on paper in a <a href="#economy-tournament">tournament</a>, the weak are culled every generation, and only the best few get real money. As they prove themselves, new brain regions (provenance, flow, curve) unlock one by one, shown as outlined embryos until they are born.</p>
       <p><b>This is early.</b> Real money is tiny, most stages of the <a href="#economy-evolution">roadmap</a> are not reached yet, and real and simulated results are never mixed.</p>
       <p><b>Neural circuits (shadow).</b> A <a href="#circuits">circuits view</a> shows eight named circuits and the messages between them, from recorded state only. It makes recommendations, never trades, and says so when it is not enabled.</p>
-      <p class="risk"><b>Risk:</b> you can lose everything you put into anything crypto. This is research, not financial advice. The AlphaMorph token identity and public research sources are linked in the footer. Naming the token is not an endorsement or a promise of value.</p>
+      <p class="risk"><b>Risk:</b> you can lose everything you put into anything crypto. This is research, not financial advice. The CORTYN token identity and public research sources are linked in the footer. Naming the token is not an endorsement or a promise of value.</p>
     </details>
     <div class="grain" aria-hidden="true"></div>
     <div id="nodelabels" class="nodelabels" aria-hidden="true"></div>
@@ -190,7 +192,7 @@
     <span style="min-width:0;overflow-wrap:anywhere">$MORPH · Robinhood Chain · <a style="color:var(--real)" href="https://robinhoodchain.blockscout.com/token/0x6dbe95076584f869dd09a44131e9a3c13f34d7d6">0x6dbe95076584f869dd09a44131e9a3c13f34d7d6</a></span>
     <span style="display:flex;flex-wrap:wrap;gap:16px"><a style="color:var(--real)" href="./thesis.html">Thesis</a><a style="color:var(--real)" href="./changelog.html">Changelog</a><a style="color:var(--real)" href="./changelog.xml">RSS</a></span>
   </nav>
-  <div>ALPHAMORPH · alphamorph.si · experimental research build, not an investment product or advice · strategies are code, not advice · 3D renderer: three.js r170 (MIT), served locally.</div>
+  <div>CORTYN · alphamorph.si · experimental research build, not an investment product or advice · strategies are code, not advice · 3D renderer: three.js r170 (MIT), served locally.</div>
 </footer>
 <button type="button" id="ll-toggle" class="ll-toggle" aria-controls="livelog" aria-expanded="false"><i class="dot" aria-hidden="true"></i><span>LIVE LOG</span><b id="ll-count" class="ll-count">0</b></button>
 <aside id="livelog" class="livelog" role="dialog" aria-modal="false" aria-labelledby="ll-title" tabindex="-1" hidden>

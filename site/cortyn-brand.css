@@ -1,0 +1,6 @@
+/* CORTYN identity; the 3D scene and its interactions are unchanged. */
+.wordmark{display:inline-flex;align-items:center;gap:8px;flex:none;text-decoration:none;white-space:nowrap}
+.cortyn-logo-frame{display:inline-block;width:34px;height:34px;overflow:hidden;border-radius:8px;flex:none;background:#05080b}
+.wordmark .cortyn-logo{display:block;width:44px;height:44px;max-width:none;margin:-5px;object-fit:contain}
+.wordmark .cortyn-name{color:#eaffd3;font-size:16px;font-weight:700;letter-spacing:.16em;line-height:1;text-shadow:0 0 18px rgba(182,255,77,.15)}
+@media(max-width:720px){.wordmark{gap:6px}.wordmark .cortyn-name{font-size:14px}.cortyn-logo-frame{width:30px;height:30px}.wordmark .cortyn-logo{width:40px;height:40px}}

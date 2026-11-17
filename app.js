@@ -747,7 +747,7 @@ async function loadSiteConfig() {
   if (!cfg || typeof cfg !== 'object' || Array.isArray(cfg)) cfg = {};
   const x = $('#xlink'); let xu = '';
   try { const u = new URL(String(cfg.x_url || '')); if (u.protocol === 'https:') xu = u.href; } catch (e) { /* ignore invalid */ }
-  if (xu) { x.href = xu; x.target = '_blank'; x.rel = 'noopener noreferrer'; x.removeAttribute('aria-disabled'); x.removeAttribute('tabindex'); x.title = 'ALPHAMORPH on X'; x.classList.remove('off'); }
+  if (xu) { x.href = xu; x.target = '_blank'; x.rel = 'noopener noreferrer'; x.removeAttribute('aria-disabled'); x.removeAttribute('tabindex'); x.title = 'CORTYN on X'; x.classList.remove('off'); }
   else { x.removeAttribute('href'); x.removeAttribute('target'); x.setAttribute('aria-disabled', 'true'); x.tabIndex = -1; x.title = 'X link coming soon'; x.classList.add('off'); }
   const v = $('#ca-v'), b = $('#ca-copy'), pill = $('#capill');
   const configuredCA = typeof cfg.ca === 'string' ? cfg.ca.trim() : '';
