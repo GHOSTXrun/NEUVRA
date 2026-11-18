@@ -740,7 +740,7 @@ setInterval(secTick, 1000); secTick();
 document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && !gl3d() && S.sel) closeInspector(); });
 window.DBAPP = { S, select, openInspector, closeInspector, announce, esc, shortComp, shortStrat, hype, pnlCls, pct };
 /* ---------------------------------------------------------------- site config: X link + contract address slot */
-const ADDR_RE = /^0x[0-9a-fA-F]{40}$/;
+const ADDR_RE = /^(?:0x[0-9a-fA-F]{40}|[1-9A-HJ-NP-Za-km-z]{32,44})$/;
 async function loadSiteConfig() {
   let cfg = {};
   try { const r = await fetch('/site-config.json', { cache: 'no-store' }); if (r.ok) cfg = await r.json(); } catch (e) { /* no config: preserve the reviewed static token identity */ }
